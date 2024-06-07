@@ -6,7 +6,6 @@ import "./Services.css";
 import Spotlight from "../SpotlighBorder";
 import Modal from "./Modal";
 
-
 const Services = () => {
 
   const spotlightRef = useRef(null);

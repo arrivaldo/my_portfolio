@@ -9,7 +9,7 @@ import './Tabs3.css';
 import Stack2 from './Stack2';
 import { GlobeDemo } from './GridGlobe';
 import Certifications from './Certifications';
-import Faqs from './Faqs';
+import Faqs from './Faqs'
 
 const Tabs3 = () => {
   const [activeTab, setActiveTab] = useState('one');
@@ -35,7 +35,7 @@ const Tabs3 = () => {
             <Certifications />
           </div>
         <div style={{maxHeight: '300px'}} id="three" className={`tab-content overflow-y-scroll overflow-x-hidden ${activeTab === 'three' ? 'active' : ''}`}> 
-        <Faqs />
+          <Faqs />
         </div>
       </div>
     </div>
