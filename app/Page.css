@@ -1,0 +1,21 @@
+.gradient-bg {
+    background: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(3, 0, 215, 0.3), #000);
+}
+
+h2::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  p::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+  }
+  span::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+  }
+  

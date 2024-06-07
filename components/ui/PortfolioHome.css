@@ -1,0 +1,284 @@
+
+.padding-home {
+    padding: 0 6%;
+    margin-top: 2%;
+  }
+  
+  .p-midHome{
+    padding: 2% 6%;
+  }
+  
+  .mainText {
+    width: 60.5%;
+  }
+  
+  .home-video {
+    width: 32%;
+  }
+  
+  .headWidth {
+    width: 100%;
+  }
+  
+  .m-button {
+    margin-top: 5%;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 355px) {
+  
+    .p-midHome{
+      padding: 5% 5%;
+    }
+  
+   .padding-home {
+    padding: 0 5%;
+    margin-top: 10%;
+   } 
+  
+   .mainText {
+    width: 100%;
+   }
+  
+   .home-video {
+    width: 80%;
+  }
+  
+  .tinyMobile {
+    font-size: 5rem
+  }
+  .headWidth {
+    width: 99%;
+  }
+  .subHead{
+    width: 115%;
+  }
+  
+  }
+  
+  @media screen and (min-width: 356px) and (max-width: 399px) {
+        /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    .p-midHome{
+        padding: 5% 5%;
+      }
+  
+     .padding-home {
+      padding: 0 5%;
+      margin-top: 10%;
+     } 
+  
+     .mainText {
+      width: 100%;
+     }
+  
+     .home-video {
+      width: 80%;
+    }
+    .subHead{
+      width: 107%;
+    }
+    .headWidth {
+      width: 107%;
+    }
+    
+  
+  }
+  
+  @media screen and (min-width: 400px) and (max-width: 431px) {
+  
+    .p-midHome{
+      padding: 5% 7%;
+    }
+  
+   .padding-home {
+    padding: 0 5%;
+    margin-top: 10%;
+   } 
+  
+   .mainText {
+    width: 100%;
+   }
+  
+   .home-video {
+    width: 80%;
+  }
+  
+  .headWidth {
+    width: 95%;
+  }
+
+  .subHead{
+    width: 105%;
+  }
+  
+  }
+  
+  
+  
+  @media screen and (min-width: 432px) and (max-width: 500px) {
+  
+    .p-midHome{
+      padding: 5% 7%;
+    }
+  
+   .padding-home {
+    padding: 0 7%;
+    margin-top: 10%;
+   } 
+  
+   .mainText {
+    width: 95%;
+   }
+  
+   .home-video {
+    width: 80%;
+  }
+  .headWidth {
+    width: 95%;
+  }
+  .subHead{
+    width: 106%;
+  }
+  
+  }
+  
+  @media screen and (min-width: 501px) and (max-width: 572px) { 
+  
+    .p-midHome{
+      padding: 5% 6%;
+    }
+  
+   .padding-home {
+    padding: 0 6%;
+    margin-top: 5%;
+  
+   } 
+  
+   .mainText {
+    width: 100%;
+  }
+  
+  .headWidth{
+    width: 77%;
+  }
+  
+  .subHead{
+    width: 105%;
+  }
+  
+  
+  .home-video {
+    width: 80%;
+  }
+  .headWidth {
+    width: 90.5%;
+  }
+  
+  
+  }
+  
+  
+  
+  @media screen and (min-width: 573px) and (max-width: 640px) { 
+    .p-midHome{
+      padding: 5% 6%;
+    }
+  
+   .padding-home {
+    padding: 0 6%;
+    margin-top: 5%;
+  
+   } 
+  
+   
+  
+  
+  .home-video {
+    width: 60%;
+  }
+  
+  
+  
+  .mainText {
+    width: 100%;
+  }
+  
+  .headWidth{
+    width: 78%;
+  }
+  
+  .subHead{
+    width: 90%;
+  }
+  
+  }
+  
+  
+  @media screen and (min-width: 641px) and (max-width: 715px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    .p-midHome{
+        padding: 5% 10%;
+      }
+  
+     .padding-home {
+      padding: 0 10%;
+      margin-top: 5%;
+     } 
+  
+     
+  .mainText {
+    width: 100%;
+  }
+  
+  .headWidth{
+    width: 85%;
+  }
+  
+  .subHead{
+    width: 95%;
+  }
+  
+  .home-video {
+    width: 58%;
+  }
+  
+  .m-button {
+    margin-top: 4%;
+  }
+  
+  }
+  
+  @media screen and (min-width: 716px) and (max-width: 819px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    .p-midHome{
+        padding: 5% 6%;
+      }
+  
+     .padding-home {
+      padding: 0 6%;
+     } 
+  
+     
+  .mainText {
+    width: 68%;
+  }
+  .subHead{
+    width: 115%;
+  }
+
+  }
+
+
+  @media screen and (min-width: 820px) and (max-width: 946px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    
+    .headWidth{
+      width: 97%;
+    }
+
+    .subHead{
+      width: 115%;
+    }
+
+
+
+  }

@@ -1,0 +1,135 @@
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Automatically adjust column width */
+  grid-template-rows: auto; /* Auto-sized rows */
+  gap: 25px 25px;
+  grid-auto-flow: row;
+  
+}
+
+.service-box1, .service-box2, .service-box3, .service-box4 {
+  border: 1px solid #c1c1c194;
+  padding: 5%;
+  color: #fff
+}
+
+.p-title-services {
+  padding: 0 6%;
+}
+.p-services {
+  padding: 0 6%;
+}
+#services {
+  padding: 0 6%;
+}
+
+/* @media screen and (max-width: 768px) {
+  .services-container {
+    grid-template-columns: 1fr; 
+  }
+} */
+
+@media screen and (min-width: 320px) and (max-width: 399px) {
+  .services-container {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    padding: 0 0%;
+  }
+
+  .p-title-services {
+    /* padding: 0 33%; */
+  }
+  .p-services {
+    /* padding: 0 0%; */
+  }
+  #services {
+    padding: 0 5%;
+  }
+  
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+  .services-container {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    padding: 0 0%;
+  }
+
+  /* .p-title-services {
+    padding: 0 33%;
+  }
+  .p-services {
+    padding: 0 0%;
+  } */
+  #services {
+    padding: 0 5%;
+  }
+  
+}
+
+@media screen and (min-width: 501px) and (max-width: 640px) { 
+  .services-container {
+    grid-template-columns: 1fr 1fr; /* Single column layout on smaller screens */
+    padding: 0 0%;
+  }
+
+
+  #services {
+    padding: 0 6%;
+  }
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 715px) { 
+  /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+  .services-container {
+    grid-template-columns: 1fr 1fr ; /* Single column layout on smaller screens */
+
+  }
+  
+  .p-title-services {
+    /* padding: 0 16%; */
+  }
+  /* .p-services {
+    padding: 0 0%;
+  } */
+
+  #services {
+    padding: 0 10%;
+  }
+
+}
+
+
+
+@media screen and (min-width: 716px) and (max-width: 819px) { 
+  /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+  .services-container {
+    grid-template-columns: 1fr 1fr; /* Single column layout on smaller screens */
+
+  }
+  
+  .p-title-services {
+    /* padding: 0 16%; */
+  }
+  /* .p-services {
+    padding: 0 0%;
+  } */
+
+  #services {
+    padding: 0 6%;
+  }
+
+}
+
+
+@media screen and (min-width: 820px) and (max-width: 946px) { 
+  /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+  .services-container {
+    grid-template-columns: repeat(auto-fit, minmax(115px, 1fr)); /* Automatically adjust column width */
+
+    
+  }
+  
+
+}
