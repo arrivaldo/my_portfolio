@@ -4,8 +4,8 @@ import React from "react";
 import Profile from "./Profile";
 import Jobs from "./Jobs";
 import "./About5.css";
-import Tabs3 from "./Tabs3";
 import CountUpStats from "./CountUpStats";
+import Tabs3 from "./Tabs3";
 
 const About5 = () => {
   return (
@@ -110,7 +110,7 @@ const About5 = () => {
 >
   {/* <Tabs2/> */}
   {/* <Tabs3 /> */}
-  <Tabs3 />
+<Tabs3 />
 </div>
 <div
   className="padding-stats w-full h-full flex items-center tinyMobile:p-4 mobile:p-4 mobileBig:p-4 tinyTablet:p-4"

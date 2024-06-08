@@ -1,6 +1,6 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
-import { BentoGridThirdDemo } from "@/components/ui/BentoGridThirdDemo";
+// import { BentoGridThirdDemo } from "@/components/ui/BentoGridThirdDemo";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
@@ -12,12 +12,12 @@ import { GlobeDemo } from "@/components/ui/GridGlobe";
 import Clients from "@/components/ui/Clients";
 import { TracingBeam } from "@/components/ui/Beam";
 import About5 from "@/components/ui/About5";
-import Testimonials4 from "@/components/ui/Testimonials4";
-import Projects2 from "@/components/ui/Projects2";
 import Contact from "@/components/ui/Contact";
 import Footer from "@/components/ui/Footer";
 import Services2 from "@/components/ui/Services2";
 import FeaturedProjects4 from "@/components/ui/FeaturedProjects4";
+import Projects2 from "@/components/ui/Projects2";
+import Testimonials4 from "@/components/ui/Testimonials4";
 
 export default function Home() {
   return (
@@ -43,8 +43,8 @@ export default function Home() {
         {/* <About4 /> */}
         {/* <GlobeDemo /> */}
         <About5 />
-        <Testimonials4 />
-        <Projects2 />
+<Testimonials4 />
+<Projects2 />
         <Contact />
         <Footer />
         {/* <Hero /> */}

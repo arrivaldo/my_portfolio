@@ -71,7 +71,7 @@ const Clients = () => {
         }}
       >
         {" "}
-        Awesome clients that we've helped
+        Awesome clients that we&apos;ve helped
       </h1>
 
       <div

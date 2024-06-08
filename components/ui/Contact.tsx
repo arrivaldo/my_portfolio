@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <section className="p-contact" style={{ marginTop: "5%" }}>
         <h3 className="text-slate-50 text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] font-bold text-left mobile:mb-4 mobile:mt-4">
-          Let's Collaborate!
+          Let&apos;s Collaborate!
         </h3>
 
         {/* <div className="col-lg-4">

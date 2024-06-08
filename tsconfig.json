@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ui/FeaturedProjects4.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ui/FeaturedProjects4.tsx", "components/ui/Modal.jsx", "components/ui/Faqs.jsx", "components/ui/CountUpStats.jsx", "components/ui/Projects2.jsx", "components/ui/Tabs3.jsx", "components/ui/Testimonials4.jsx"],
   "exclude": ["node_modules"]
 }

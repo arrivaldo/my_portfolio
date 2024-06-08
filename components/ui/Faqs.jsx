@@ -3,11 +3,11 @@ import { FiChevronDown } from "react-icons/fi";
 import { motion } from "framer-motion";
 import useMeasure from "react-use-measure";
 
-const Faqs = () => {
+const BasicFAQ = () => {
   return (
     <div className="py-4 ">
       <div className="mx-auto max-w-3xl">
-        <h3 className="mb-4 text-left text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] font-semibold">
+        <h3 className="mb-4 text-left text-xl tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem] font-semibold">
           Frequently asked questions
         </h3>
         <Question title="Why is the sky blue?" defaultOpen>
@@ -66,7 +66,7 @@ const Question = ({ title, children, defaultOpen = false }) => {
             //  },
           }}
           style={{color: 'rgb(132 205 235'}}
-          className="text-left text-lg font-medium tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]"
+          className="text-left text-lg font-medium tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem]"
         >
           {title}
         </motion.span>
@@ -91,7 +91,7 @@ const Question = ({ title, children, defaultOpen = false }) => {
           height: open ? height : "0px",
           marginBottom: open ? "24px" : "0px",
         }}
-        className="overflow-hidden text-slate-200 tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem]"
+        className="overflow-hidden text-slate-200 tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem]"
       >
         <p ref={ref}>{children}</p>
       </motion.div>
@@ -99,4 +99,4 @@ const Question = ({ title, children, defaultOpen = false }) => {
   );
 };
 
-export default Faqs;
+export default BasicFAQ;

@@ -46,7 +46,7 @@ const Home: React.FC = () => {
             className="text-[2.4rem] desktop:text-[2rem] headWidth leading-relaxed tinyMobile:text-[1.2rem] mobile:text-[1.5rem] mobileBig:text-[1.5em] tablet:text-[2rem] tinyTablet:text-[1.8rem] bigTablet:text-[2rem]"
             style={{ fontWeight: "600", marginTop: "2%", color: "#fff" }}
           >
-            I'm a <span>Full-Stack Developer</span> and a&nbsp;
+            I&apos;m a <span>Full-Stack Developer</span> and a&nbsp;
             <span>Quality Engineer</span>
           </h2>
 
@@ -165,15 +165,9 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        <video
-          src="/hologram22.webm"
-          type="video/mp4"
-          id="myVideo"
-          autoPlay
-          loop
-          muted
-          className="relative home-video"
-        ></video>
+        <video id="myVideo" autoPlay loop muted className="relative home-video">
+  <source src="/hologram22.webm" type="video/webm" />
+</video>
       </div>
 
       <div className="relative z-50" style={{ width: "100%" }}>
@@ -214,7 +208,7 @@ const Home: React.FC = () => {
                   position: "relative",
                 }}
               >
-                During my career I've helped international clients fulfill their
+                During my career I&apos;ve helped international clients fulfill their
                 projects during the entire life cycle by collaborating as
                 a&nbsp;
                 <span style={{ color: "#e3e3e3" }}>web developer,&nbsp;</span>

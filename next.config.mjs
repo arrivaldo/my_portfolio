@@ -4,6 +4,8 @@
 const nextConfig = {
     images: {
       domains: ['pbs.twimg.com'],
+      domains: ['cdn.dribbble.com'],
+
     },
   };
   

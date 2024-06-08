@@ -99,14 +99,14 @@ const Testimonials4 = () => {
   return (
     <div id="testimonials-section" className="text-center ">
       <div className="quotes flex w-full justify-center">
-        <span style={{ marginTop: "-15%" }} className="text-7xl text-slate-700">
+        <span style={{ marginTop: "-15%" }} className="quote text-slate-700">
           <ImQuotesLeft style={{ width: "100%" }} />
         </span>
       </div>
 
       <div className="container-testimonial">
         <div className="section-title">
-          <h2 style={{ color: "#e3e3e3" }} className="text-3xl tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.5rem]">
+          <h2 style={{ color: "#e3e3e3" }} className="testimTitle tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.5rem]">
             What they said <strong>about us</strong>
           </h2>
           <div className="flex justify-center w-full">

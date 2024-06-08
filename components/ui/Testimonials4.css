@@ -28,6 +28,13 @@
     width: 82%; margin-left: 8%
 }
 
+.testimTitle {
+    font-size: 1.875rem;
+}
+
+.quote {
+    font-size: 5.5rem;
+}
 
 @media screen and (min-width: 320px) and (max-width: 355px) {
     #testimonials-section {
@@ -46,6 +53,14 @@
     .parraf-container {
         width: 102%; margin-left: 0%
     }
+
+    .quote {
+        font-size: 3.2rem;
+    }
+    .testimTitle {
+        font-size: 1.05rem;
+    }
+    
 
 
 }    
@@ -71,6 +86,13 @@
         width: 86%; margin-left: 7%
     }
 
+    .quote {
+        font-size: 3.2rem;
+    }
+    .testimTitle {
+        font-size: 1.05rem;
+    }
+
   }
   
   
@@ -90,6 +112,13 @@
 
     .shift{ 
         height: 230px;
+    }
+
+    .quote {
+        font-size: 3.2rem;
+    }
+    .testimTitle {
+        font-size: 1.25rem;
     }
 
 
@@ -113,11 +142,26 @@
             height: 240px;
         }
 
+
+        .quote {
+            font-size: 4.2rem;
+        }
+        .testimTitle {
+            font-size: 1.7rem;
+        }
+
     }
   
     @media screen and (min-width: 641px) and (max-width: 715px) { 
         #testimonials-section {
             padding: 0 2%;
+        }
+
+        .quote {
+            font-size: 4.2rem;
+        }
+        .testimTitle {
+            font-size: 1.7rem;
         }
 
     }

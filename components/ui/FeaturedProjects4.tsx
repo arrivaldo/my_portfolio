@@ -2,6 +2,8 @@
 
 import React from "react";
 import "./FeaturedProjects4.css";
+import Image from "next/image";
+
 import { IoIosLink } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
@@ -117,7 +119,7 @@ const FeaturedProjects4: React.FC = () => {
                         </div>
               
                         <div className="project-img">
-                          <img src={project.cover} alt={project.title} />
+                        <Image src={project.cover} alt={project.title} layout="fill" objectFit="cover"  />
                         </div>
                       </div>
                     </div>
