@@ -23,6 +23,11 @@
   padding: 0 6%;
 }
 
+.services-title {
+  font-size: 1.25rem;
+}
+
+
 /* @media screen and (max-width: 768px) {
   .services-container {
     grid-template-columns: 1fr; 
@@ -44,6 +49,9 @@
   #services {
     padding: 0 5%;
   }
+  .services-title {
+    font-size: 0.9rem;
+  }
   
 }
 
@@ -64,6 +72,13 @@
   #services {
     padding: 0 5%;
   }
+
+  .services-title {
+    font-size: 1.05rem;
+  }
+  
+
+
   
 }
 

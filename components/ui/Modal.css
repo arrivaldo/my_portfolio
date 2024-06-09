@@ -1,0 +1,347 @@
+.modalWidth {
+    width: 30%;
+}
+
+.item-title {
+    font-size: 1.25rem;
+}
+
+.item-description {
+ font-size: 1.25rem;   
+}
+
+.item-date {
+    font-size: 1.25rem;   
+
+}
+
+.item-service {
+    font-size: 1.5rem;
+}
+
+.btn-1 {
+    font-size: 1.25rem;
+}
+
+.btn-2 {
+    font-size: 1.25rem;
+
+}
+
+.readMore {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 355px) {
+  
+    .modalWidth {
+        width: 80%;
+    }
+
+    .item-description {
+        font-size: 0.9rem;   
+       }
+       
+       .item-title {
+        font-size: 0.9rem;
+       }
+    .item-date {
+    font-size: 0.9rem;
+    }
+
+    .item-service {
+        font-size: 1.2rem;
+    }
+
+    .btn-1 {
+        font-size: 0.9rem;
+    }
+    
+    .btn-2 {
+        font-size: 0.9rem;
+    
+    }
+
+    .readMore {
+        font-size: 0.7rem;
+    }
+    
+    
+  
+  }
+  
+  @media screen and (min-width: 356px) and (max-width: 399px) {
+        /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+        .modalWidth {
+            width: 80%;
+        }
+        
+        .item-description {
+            font-size: 0.9rem;   
+           }
+           
+           .item-title {
+            font-size: 0.9rem;
+           }
+        .item-date {
+        font-size: 0.9rem;
+        }
+    
+        .item-service {
+            font-size: 1.2rem;
+        }
+    
+        .btn-1 {
+            font-size: 0.9rem;
+        }
+        
+        .btn-2 {
+            font-size: 0.9rem;
+        
+        }
+        .readMore {
+            font-size: 0.7rem;
+        }
+        
+
+
+  
+  }
+  
+  @media screen and (min-width: 400px) and (max-width: 431px) {
+  
+    .modalWidth {
+        width: 80%;
+    }
+
+
+    .item-description {
+        font-size: 1.05rem;   
+       }
+       
+       .item-title {
+        font-size: 1.05rem;
+       }
+    .item-date {
+    font-size: 1.05rem;
+    }
+
+    .item-service {
+        font-size: 1.2rem;
+    }
+
+    .btn-1 {
+        font-size: 1.05rem;
+    }
+    
+    .btn-2 {
+        font-size: 1.05rem;
+    
+    }
+
+    .readMore {
+        font-size: 0.79em;
+    }
+    
+
+
+    
+  
+  }
+  
+  
+  
+  @media screen and (min-width: 432px) and (max-width: 500px) {
+  
+    .modalWidth {
+        width: 70%;
+    }
+
+
+    .modalWidth {
+        width: 80%;
+    }
+
+
+    .item-description {
+        font-size: 1.05rem;   
+       }
+       
+       .item-title {
+        font-size: 1.05rem;
+       }
+    .item-date {
+    font-size: 1.05rem;
+    }
+
+    .item-service {
+        font-size: 1.2rem;
+    }
+
+    .btn-1 {
+        font-size: 1.05rem;
+    }
+    
+    .btn-2 {
+        font-size: 1.05rem;
+    
+    }
+
+    .readMore {
+        font-size: 0.79em;
+    }
+    
+
+
+
+
+
+
+    
+  }
+  
+  @media screen and (min-width: 501px) and (max-width: 572px) { 
+    .modalWidth {
+        width: 70%;
+    }
+
+
+    .modalWidth {
+        width: 80%;
+    }
+
+
+    .item-description {
+        font-size: 1.05rem;   
+       }
+       
+       .item-title {
+        font-size: 1.05rem;
+       }
+    .item-date {
+    font-size: 1.05rem;
+    }
+
+    .item-service {
+        font-size: 1.2rem;
+    }
+
+    .btn-1 {
+        font-size: 1.05rem;
+    }
+    
+    .btn-2 {
+        font-size: 1.05rem;
+    
+    }
+
+    .readMore {
+        font-size: 0.9em;
+    }
+    
+    
+  
+  }
+  
+  
+  
+  @media screen and (min-width: 573px) and (max-width: 640px) { 
+
+    .modalWidth {
+        width: 70%;
+    }
+
+    .modalWidth {
+        width: 80%;
+    }
+
+
+    .item-description {
+        font-size: 1.05rem;   
+       }
+       
+       .item-title {
+        font-size: 1.05rem;
+       }
+    .item-date {
+    font-size: 1.05rem;
+    }
+
+    .item-service {
+        font-size: 1.2rem;
+    }
+
+    .btn-1 {
+        font-size: 1.05rem;
+    }
+    
+    .btn-2 {
+        font-size: 1.05rem;
+    
+    }
+
+    .readMore {
+        font-size: 0.9em;
+    }
+
+
+    
+  }
+  
+  
+  @media screen and (min-width: 641px) and (max-width: 715px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+
+    .modalWidth {
+        width: 70%;
+    }
+    .readMore {
+        font-size: 0.9em;
+    }
+  }
+  
+  @media screen and (min-width: 716px) and (max-width: 819px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    .modalWidth {
+        width: 60%;
+    }
+    
+    .readMore {
+        font-size: 0.9em;
+    }
+    
+
+  }
+
+
+  @media screen and (min-width: 820px) and (max-width: 946px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    
+    .modalWidth {
+        width: 60%;
+    }
+    
+    .readMore {
+        font-size: 0.9em;
+    }
+
+
+  }
+
+
+  
+  @media screen and (min-width: 947px) and (max-width: 1250px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    
+    .modalWidth {
+        width: 40%;
+    }
+    
+
+
+  }

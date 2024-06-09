@@ -21,7 +21,7 @@ const Services = () => {
     <>
       <section className="relative z-50" id="services" style={{ marginBottom: "6%", marginTop: "6%" }}>
         <h1
-          className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] bigMobile:text-[1.05rem]"
+          className="services-title"
           style={{
             width: "100%",
             color: "#e3e3e3",

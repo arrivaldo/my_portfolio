@@ -19,3 +19,23 @@ h2::selection {
     -webkit-text-stroke: 0;
   }
   
+  .b-border {
+    border: 1px solid #c1c1c138;
+  }
+
+
+  @media screen and (min-width: 320px) and (max-width: 355px) {
+  
+    .b-border {
+      border: none;
+    }
+  
+  }
+  
+  @media screen and (min-width: 356px) and (max-width: 399px) {
+        /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+        .b-border {
+          border: none;
+        }
+  
+  }

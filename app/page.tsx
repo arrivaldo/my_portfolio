@@ -25,8 +25,8 @@ export default function Home() {
               <div className="absolute left-0 top-0 z-[1] h-screen w-screen gradient-bg"></div>
 
       <div
-        style={{ border: "1px solid #c1c1c138",}}
-        className="max-w-5xl w-full z-20 relative"
+        style={{ }}
+        className="max-w-5xl w-full z-20 relative b-border"
       >
         <FloatingNav
           navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}

@@ -50,6 +50,7 @@ const Question = ({ title, children, defaultOpen = false }) => {
   return (
     <motion.div
       animate={open ? "open" : "closed"}
+      style={{borderBottom: '1px solid rgb(203 213 225)', paddingBottom: '4%', paddingTop: '4%'}}
       className="border-b-[1px] border-b-slate-300"
     >
       <button
@@ -65,7 +66,7 @@ const Question = ({ title, children, defaultOpen = false }) => {
             //    color: "rgb(132 205 235",
             //  },
           }}
-          style={{color: 'rgb(132 205 235'}}
+          style={{color: 'rgb(132 205 235)', marginBottom: '2%', marginTop: '2%'}}
           className="text-left text-lg font-medium tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem]"
         >
           {title}
@@ -89,7 +90,9 @@ const Question = ({ title, children, defaultOpen = false }) => {
         initial={false}
         animate={{
           height: open ? height : "0px",
-          marginBottom: open ? "24px" : "0px",
+          marginBottom: open ? "18px" : "0px",
+          marginTop: open ? "18px" : "0px",
+
         }}
         className="overflow-hidden text-slate-200 tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem]"
       >
