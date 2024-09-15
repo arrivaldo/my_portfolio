@@ -79,7 +79,7 @@ const Clients = () => {
         className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem]  mobileBig:text-[0.9rem] font-bold falseBody overflow-x-hidden"
       >
         <div className="scroller overflow-x-hidden" data-speed="slow">
-          <ul  className="tag-list scroller__inner overflow-x-hidden mobileBig:text-lg">
+          <ul ref={spotlightRef} className="tag-list scroller__inner overflow-x-hidden mobileBig:text-lg">
             <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
               <div
                 style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
