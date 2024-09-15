@@ -39,7 +39,7 @@ const About5 = () => {
                     <li>#Engineering</li>
                   </ul>
                   <p className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] pb-2">
-                  Master the Object-Oriented Programming paradigm with in-depth coverage of essential concepts This post delivers technical clarity and practical examples.
+                  Master the Object-Oriented Programming paradigm with in-depth coverage of essential concepts. This post delivers technical clarity and practical examples.
                   </p>
                   <a className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-[#84cdeb]">
                     Read article -

@@ -132,12 +132,14 @@ const FeaturedProjects4: React.FC = () => {
           </div>
 
           <div className="project-img">
-            <Image
+          <Image
               src={project.cover}
+              fill
               alt={project.title}
-              layout="fill"
-              objectFit="cover"
-            />
+              style={{ objectFit: 'cover' }}
+              sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority
+           />
           </div>
         </div>
       </div>

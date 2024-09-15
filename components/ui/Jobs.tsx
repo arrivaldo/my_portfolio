@@ -76,7 +76,7 @@ const Jobs = () => {
                     alt={job.alt}
                     width={32}
                     height={32}
-                    objectFit={index !== 0 ? 'contain' : 'cover'}
+                    style={{ objectFit: index !== 0 ? 'contain' : 'cover' }} // Update this line to use CSS
                   />
                 </div>
                 <div className="flex-1 min-w-0 ms-4">

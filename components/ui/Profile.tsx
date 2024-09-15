@@ -9,9 +9,14 @@ const Profile = () => {
 <div className="flex items-center gap-6 tinyMobile:text-[0.9rem] mobile:text-[0.9rem] tinyMobile:items-center mobile:items-center">
     {/* <img className="w-24 h-24 rounded-full" src="/images/erick3.png" alt="Jese image" /> */}
     <div className='w-36 h-28'>
-            <Image
-            className='rounded-full'
-             src="/images/profilePic3.jpeg" alt='Profile Picture' layout="responsive" width={300} height={300}/>
+    <Image
+  className='rounded-full'
+  src="/images/profilePic3.jpeg"
+  alt='Profile Picture'
+  width={300}
+  height={300}
+/>
+
 
     </div>
 
