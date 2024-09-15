@@ -22,24 +22,8 @@ const Contact = () => {
           </div> */}
 
         <form style={{ marginTop: "2%" }} className=" mx-auto">
-          <div className="relative z-0 w-full mb-5 group">
-            <input
-              type="email"
-              name="floating_email"
-              id="floating_email"
-              className="block py-2.5 px-0 w-full text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-              placeholder=" "
-              style={{color: '#fff'}}
-              required
-            />
-            <label
-              htmlFor="floating_email"
-              className="peer-focus:font-medium absolute text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-            >
-              Email address
-            </label>
-          </div>
-          <div className="relative z-0 w-full mb-5 group">
+          
+          {/* <div className="relative z-0 w-full mb-5 group">
             <input
               type="password"
               name="floating_password"
@@ -55,8 +39,8 @@ const Contact = () => {
             >
               Password
             </label>
-          </div>
-          <div className="relative z-0 w-full mb-5 group">
+          </div> */}
+          {/* <div className="relative z-0 w-full mb-5 group">
             <input
               type="password"
               name="repeat_password"
@@ -72,7 +56,7 @@ const Contact = () => {
             >
               Confirm password
             </label>
-          </div>
+          </div> */}
           <div className="grid md:grid-cols-2 md:gap-6">
             <div className="relative z-0 w-full mb-5 group">
               <input
@@ -88,7 +72,7 @@ const Contact = () => {
                 htmlFor="floating_first_name"
                 className="peer-focus:font-medium absolute text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                First name
+                Name
               </label>
             </div>
             <div className="relative z-0 w-full mb-5 group">
@@ -105,28 +89,27 @@ const Contact = () => {
                 htmlFor="floating_last_name"
                 className="peer-focus:font-medium absolute text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                Last name
+                Email Subject
               </label>
             </div>
           </div>
           <div className="grid md:grid-cols-2 md:gap-6">
             <div className="relative z-0 w-full mb-5 group">
-              <input
-                type="tel"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                name="floating_phone"
-                id="floating_phone"
-                className="block py-2.5 px-0 w-full text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                placeholder=" "
-                style={{color: '#fff'}}
-                required
-              />
-              <label
-                htmlFor="floating_phone"
-                className="peer-focus:font-medium absolute text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-              >
-                Phone number (123-456-7890)
-              </label>
+            <input
+              type="email"
+              name="floating_email"
+              id="floating_email"
+              className="block py-2.5 px-0 w-full text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              placeholder=" "
+              style={{color: '#fff'}}
+              required
+            />
+            <label
+              htmlFor="floating_email"
+              className="peer-focus:font-medium absolute text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+            >
+              Email address
+            </label>
             </div>
             <div className="relative z-0 w-full mb-5 group">
               <input
@@ -142,14 +125,14 @@ const Contact = () => {
                 htmlFor="floating_company"
                 className="peer-focus:font-medium absolute text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                Company (Ex. Google)
+                Company (Optional)
               </label>
             </div>
           </div>
 
           
   {/* <label for="message" className="block mb-2 text-sm font-medium text-white">Your message</label> */}
-  <textarea style={{border: '2px solid rgb(209 213 219', marginBottom: '2%', color: '#fff'}} id="message" rows={4} className="bg-black block p-2.5 w-full text-md tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-gray-900  rounded-lg border focus:ring-blue-500 focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+  <textarea style={{ marginBottom: '2%', color: '#fff', borderBottomWidth: '2px'}} id="message" rows={4} className="bg-black block p-2.5 w-full text-md tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-gray-900  rounded-lg border focus:ring-blue-500 focus:border-blue-500" placeholder="Leave a comment..."></textarea>
 
 
 

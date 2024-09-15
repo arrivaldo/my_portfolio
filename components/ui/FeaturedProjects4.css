@@ -39,7 +39,7 @@
   }
   
   .project-details {
-    font-size: 1.22rem;
+    font-size: 1.125rem;
     line-height: 1.5;
     color: #aaa;
     position: relative;
@@ -72,7 +72,7 @@
     grid-column: 6 / -1;
     grid-row: 1 / -1;
     height: 252px;
-    width: 800px;
+    width: 880px;
   }
   
   .project-img:hover{

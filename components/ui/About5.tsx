@@ -27,22 +27,19 @@ const About5 = () => {
               style={{}}
               className="relative h-full rounded-[inherit]  overflow-vsible"
             >
-              <div className="group">
+             <div className="group">
                 <div className="flex flex-col">
                   <h3 className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem]">
-                    April 5, 2024
+                    Sept 12, 2024
                   </h3>
                   <h2 className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] font-bold py-2">
-                    Crafting a design system for a multiplanetary
-                  </h2>
+                  Understanding the Object-Oriented Programming Paradigm                  </h2>
                   <ul className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] flex gap-4 pb-2 ">
                     <li>#Arquitecture</li>
                     <li>#Engineering</li>
                   </ul>
                   <p className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] pb-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Iure eligendi fugiat vitae expedita deserunt aliquam
-                    recusandae. Iure eligendi fugiat vitae expedita deserunt.
+                  Master the Object-Oriented Programming paradigm with in-depth coverage of essential concepts This post delivers technical clarity and practical examples.
                   </p>
                   <a className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-[#84cdeb]">
                     Read article -
@@ -65,19 +62,17 @@ const About5 = () => {
               <div className="group">
                 <div className="flex flex-col">
                   <h3 className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem]">
-                    April 5, 2024
+                    Sept 13, 2024
                   </h3>
                   <h2 className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] font-bold py-2">
-                    Crafting a design system for a multiplanetary
+                  REST vs. GraphQL: Which is Right for Your Project?
                   </h2>
                   <ul className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] flex gap-4 pb-2 ">
-                    <li>#Arquitecture</li>
+                    <li>#SoftwareDevelopment</li>
                     <li>#Engineering</li>
                   </ul>
                   <p className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] pb-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Iure eligendi fugiat vitae expedita deserunt aliquam
-                    recusandae. Iure eligendi fugiat vitae expedita deserunt.
+                  In this article, we'll explore the differences between REST and GraphQL, examine their pros and cons, and help you decide which one is best suited for your project.
                   </p>
                   <a className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-[#84cdeb]">
                     Read article -
