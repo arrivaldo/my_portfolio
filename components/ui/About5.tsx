@@ -72,7 +72,7 @@ const About5 = () => {
                       <li>#Engineering</li>
                     </ul>
                     <p className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] pb-2">
-                      In this article, we'll explore the differences between REST and GraphQL, examine their pros and cons, and help you decide which one is best suited for your project.
+                      In this article, we&apos;ll explore the differences between REST and GraphQL, examine their pros and cons, and help you decide which one is best suited for your project.
                     </p>
                     <a className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] text-[#84cdeb]">
                       Read article -
