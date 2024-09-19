@@ -47,7 +47,7 @@ export default function Home() {
         <PortfolioHome />
         {/* <Clients /> */}
         <Clients />
-        <Clients2 />
+        {/* <Clients2 /> */}
 
 
         <Services />
