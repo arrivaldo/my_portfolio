@@ -45,9 +45,11 @@ export default function Home() {
         {/* <div className="absolute left-0 top-0 z-[1] h-screen w-screen gradient-bg"></div> */}
         {/* <TracingBeam> */}
         <PortfolioHome />
+        {/* <Clients /> */}
         <Clients />
+
         <Services />
-        <InfiniteCards />
+        {/* <InfiniteCards /> */}
         {/* <Services2 /> */}
         {/* <Services3 /> */}
         <FeaturedProjects4 />
@@ -55,7 +57,6 @@ export default function Home() {
         {/* <GlobeDemo /> */}
         {/* <About4 /> */}
         {/* <About5 /> */}
-        <Clients2 />
         <About6 />
         {/* <About6 /> */}
         {/* <CustomSkills /> */}

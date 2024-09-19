@@ -209,7 +209,7 @@ const Home: React.FC = () => {
                 }}
               >
                 During my career I&apos;ve helped international clients fulfill their
-                projects during the entire project life cycle by collaborating as
+                projects during the entire life cycle by collaborating as
                 a&nbsp;
                 <span style={{ color: "#e3e3e3" }}>web developer,&nbsp;</span>
                 <span style={{ color: "#e3e3e3" }}>quality analyst&nbsp;</span>

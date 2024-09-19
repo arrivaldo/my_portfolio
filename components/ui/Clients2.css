@@ -33,35 +33,46 @@
 
 .item {
   width: 200px;
-  height: 100px;
-  background-color: red;
-  border-radius: 6px;
+  height: 60px;
+  background-color: rgb(0 0 69);;
+  border-radius: 5px;
   position: absolute;
-  left: max(calc(200px * 8), 100%);
+  left: max(calc(200px * 5), 100%);
   animation-name: scrollLeft;
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  border: 1px solid #c1c1c194;
 }
 
 .item1 {
-  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  animation-delay: calc(30s / 5 * (5 - 1) * -1);
+  display: grid;
+  place-items: center;
 }
 
 .item2 {
-  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  animation-delay: calc(30s / 5 * (5 - 2) * -1);
+  display: grid;
+  place-items: center;
 }
 
 .item3 {
-  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  animation-delay: calc(30s / 5 * (5 - 3) * -1);
+  display: grid;
+  place-items: center;
 }
 
 .item4 {
-  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  animation-delay: calc(30s / 5 * (5 - 4) * -1);
+  display: grid;
+  place-items: center;
 }
 
 .item5 {
-  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  animation-delay: calc(30s / 5 * (5 - 5) * -1);
+  display: grid;
+  place-items: center;
 }
 
 .item6 {
