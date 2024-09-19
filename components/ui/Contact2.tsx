@@ -51,7 +51,7 @@ const SignupFormDemo = () => {
         Let's collaborate!
       </h2>
       <p className="text-white-200 text-md max-w-sm mt-2 dark:text-neutral-300">
-        Login to aceternity if you can because we don&apos;t have a login flow
+        Login to aceternity if you can because we don't have a login flow
         yet
       </p>
 
