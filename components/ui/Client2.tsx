@@ -5,7 +5,7 @@ const Client2 = () => {
   return (
     <>
       <h1
-        classNameName="p-title-clients text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem]  mobileBig:text-[1.05rem]"
+        className="p-title-clients text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem]  mobileBig:text-[1.05rem]"
         style={{
           width: "100%",
           color: "#e3e3e3",
@@ -14,7 +14,7 @@ const Client2 = () => {
           padding: '0 6%',
         }}
       >
-        Awesome clients that we've helped
+        Awesome clients that weve helped
       </h1>
 
       <div className="wrapper">
