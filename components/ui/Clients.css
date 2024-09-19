@@ -1,5 +1,5 @@
 .scroller {
-    max-width: 1350px;
+    max-width: 1750px;
   }
   
   .scroller__inner {
@@ -42,6 +42,9 @@
   
   .scroller[data-speed="slow"] {
     --_animation-duration: 100s;
+  }
+  .scroller[data-animated="true"] .scroller__inner:hover {
+    animation-play-state: paused;
   }
   
   @keyframes scroll {

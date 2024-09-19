@@ -47,6 +47,8 @@ export default function Home() {
         <PortfolioHome />
         {/* <Clients /> */}
         <Clients />
+        <Clients2 />
+
 
         <Services />
         {/* <InfiniteCards /> */}
