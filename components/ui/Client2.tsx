@@ -28,6 +28,8 @@ const Client2 = () => {
   <div className="item item8 text-xl">CLARO 360</div>
   <div className="item item9 text-xl">MIRA</div>
   <div className="item item10 text-xl">Popular Bank</div>
+  <div className="item item1 text-xl">Munich RE</div>
+  <div className="item item2 text-xl">FEMSA</div>
 </div>
     </>
   );
