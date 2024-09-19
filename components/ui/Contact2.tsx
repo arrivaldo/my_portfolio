@@ -48,10 +48,10 @@ const SignupFormDemo = () => {
       className="max-w-md w-full mx-auto rounded-none md:rounded-2xl md:p-8 bg-black dark:bg-black"
     >
       <h2 className="font-bold text-xl text-white dark:text-neutral-200">
-        Let's collaborate!
+        Lets collaborate!
       </h2>
       <p className="text-white-200 text-md max-w-sm mt-2 dark:text-neutral-300">
-        Login to aceternity if you can because we don't have a login flow
+        Login to aceternity if you can because we dont have a login flow
         yet
       </p>
 
