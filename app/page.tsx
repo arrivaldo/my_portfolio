@@ -16,6 +16,7 @@ import Clients from "@/components/ui/Clients";
 import { TracingBeam } from "@/components/ui/Beam";
 import Contact from "@/components/ui/Contact";
 import Contact2 from "@/components/ui/Contact2";
+import Clients2 from '@/components/ui/Client2'
 
 import Footer from "@/components/ui/Footer";
 import Services2 from "@/components/ui/Services2";
@@ -54,6 +55,7 @@ export default function Home() {
         {/* <GlobeDemo /> */}
         {/* <About4 /> */}
         {/* <About5 /> */}
+        <Clients2 />
         <About6 />
         {/* <About6 /> */}
         {/* <CustomSkills /> */}
