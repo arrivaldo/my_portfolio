@@ -409,7 +409,7 @@
            transition={{
              duration: 1,
            }}
-           className="div"
+           className="div mt-7"
          >
            <h2 className="text-center text-xl md:text-4xl font-bold text-white dark:text-white">
              We sell soap worldwide

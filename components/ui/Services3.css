@@ -1,0 +1,210 @@
+.services-container {
+    padding: 0% 6%;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Automatically adjust column width */
+    grid-template-rows: auto; /* Auto-sized rows */
+    gap: 25px 25px;
+    grid-auto-flow: row;
+}
+
+.title-services{
+    width: 77%;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.cardBorder {
+    border: 1px solid #c1c1c194;
+    padding: 5%;
+    color: #fff;
+    background: rgb(0 0 69);
+    height: 100%;
+}
+
+.p-title-services {
+    padding: 0 6%;
+  }
+
+  .service-box1, .service-box2, .service-box3, .service-box4 {
+    /* border: 1px solid #c1c1c194; */
+    /* padding: 5%; */
+    color: #fff
+  }
+
+
+
+  @media screen and (min-width: 320px) and (max-width: 399px) {
+    .services-container {
+      grid-template-columns: 1fr; /* Single column layout on smaller screens */
+      padding: 0 0%;
+    }
+  
+    .title-services{
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    #services {
+      padding: 0 5%;
+    }
+    .p-title-services {
+        padding: 0 0%;
+        font-size: 0.9rem;
+      }
+    
+   .arrow-margin{
+    margin-top: 7px;
+   }
+
+   .read-more {
+    font-size: 0.79rem;
+   }
+    
+  }
+
+
+  @media screen and (min-width: 400px) and (max-width: 500px) {
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    .services-container {
+        grid-template-columns: 1fr; /* Single column layout on smaller screens */
+        padding: 0 0%;
+      }
+    
+      .title-services{
+          width: 100%;
+          font-size: 1.05rem;
+      }
+      #services {
+        padding: 0 5%;
+      }
+      .p-title-services {
+          padding: 0 0%;
+          font-size: 1.05rem;
+        }
+      
+     .arrow-margin{
+      margin-top: 7px;
+     }
+     .read-more {
+        font-size: 0.79rem;
+       }
+        
+  }
+  
+
+  @media screen and (min-width: 501px) and (max-width: 640px) { 
+    .services-container {
+        grid-template-columns: 1fr; /* Single column layout on smaller screens */
+        padding: 0 0%;
+      }
+    
+      .title-services{
+          width: 100%;
+          font-size: 1.25rem;
+      }
+      #services {
+        padding: 0 5%;
+      }
+      .p-title-services {
+          padding: 0 0%;
+          font-size: 1.25rem;
+        }
+      
+     .arrow-margin{
+      margin-top: 5%;
+     }
+     .read-more {
+        font-size: 0.79rem;
+       }
+        
+  }
+
+
+  @media screen and (min-width: 641px) and (max-width: 715px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    .services-container {
+      grid-template-columns: 1fr 1fr ; /* Single column layout on smaller screens */
+      padding: 0 6%;
+
+    }
+    .title-services{
+        width: 50%;
+        font-size: 1.25rem;
+    }
+    #services {
+      padding: 0 5%;
+    }
+    .p-title-services {
+        padding: 0 6%;
+        font-size: 1.25rem;
+      }
+    
+   .arrow-margin{
+    margin-top: 5%;
+   }
+   .read-more {
+      font-size: 0.79rem;
+     }
+  
+  }
+  
+
+  @media screen and (min-width: 716px) and (max-width: 819px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    .services-container {
+      grid-template-columns: 1fr 1fr; /* Single column layout on smaller screens */
+      padding: 0 0%;
+
+    }
+    
+    .title-services{
+        width: 45%;
+        font-size: 1.25rem;
+    }
+    #services {
+      padding: 0 5%;
+    }
+    .p-title-services {
+        padding: 0 0%;
+        font-size: 1.25rem;
+      }
+    
+   .arrow-margin{
+    margin-top: 5%;
+   }
+   .read-more {
+      font-size: 0.79rem;
+     }
+  
+  }
+  
+  @media screen and (min-width: 820px)  { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    .services-container {
+      grid-template-columns: repeat(auto-fit, minmax(115px, 1fr)); /* Automatically adjust column width */
+      padding: 0 0%;
+
+    }
+
+    .title-services{
+        width: 71%;
+        font-size: 1.25rem;
+    }
+    #services {
+      padding: 0 5%;
+    }
+    .p-title-services {
+        padding: 0 0%;
+        font-size: 1.25rem;
+      }
+    
+   .arrow-margin{
+    margin-top: 5%;
+   }
+   .read-more {
+      font-size: 0.79rem;
+      display: none;
+     }
+    }

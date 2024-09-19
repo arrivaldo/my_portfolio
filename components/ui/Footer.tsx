@@ -8,6 +8,7 @@ const Footer = () => {
           padding: "3% 6%",
           overflow: "hidden",
           border: "1px solid rgba(236, 239, 241, 0.2",
+          marginTop: '10%'
         }}
         className=" rounded-lg shadow sm:flex sm:items-center sm:justify-between"
       >

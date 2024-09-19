@@ -50,7 +50,9 @@
   grid-area: upper-cont;
 }
 
-
+.h-height {
+  max-height: 81%;
+}
 
 
 
@@ -92,7 +94,10 @@
 }
 .low2 { grid-area: low2;  padding: 5%; border-radius: 1rem;    }
 
+.worldContent {
+  max-height: 400px;
 
+}
 
 
 .bgColor{
@@ -234,6 +239,10 @@ height: 78%;
   }
   
   .low1 { height: auto; }
+  .h-height {
+    max-height: 100%;
+  }
+
 
 
 }
@@ -242,22 +251,89 @@ height: 78%;
 /* CSS rules for devices with widths between 321 pixels and 768 pixels */
 
 .p-about {
-  padding: 0 16%;
+  padding: 0 10%;
+  height: 2000px;
+
 }
 
 .h-class {
   height: 82%;
 }
+
+.upper1 {
+  grid-template-columns: 1fr; /* Change to a single column */
+  grid-template-rows: auto; /* Allow rows to adjust based on content */
+  grid-template-areas: 
+    "upper-cont"
+    "upper-cont2";
+    /* width: 63%; */
+}
+
+.upper-cont, .upper-cont2, .bottom1 {
+  grid-template-columns: 1fr; /* Change to a single column */
+  grid-template-rows: auto; /* Allow rows to adjust based on content */
+  grid-template-areas: 
+    "content'"; /* You can name this area as you wish */
+}
+
+.upper11, .upper21, .upper12, .upper22, .low1, .low2 {
+  grid-area: content; /* Ensure all items occupy the 'content' area */ 
+}
+
+.low1 { height: auto; }
+
+
+.h-height {
+  max-height: 55%;
+}
+
+
 }
 
 @media screen and (min-width: 716px) and (max-width: 819px) { 
 /* CSS rules for devices with widths between 321 pixels and 768 pixels */
 
 .p-about {
-  padding: 0 12%;
+  padding: 0 6%;
+  height: 1900px;
+
 }
 .h-class {
   height: 86%;
 }
+.h-height {
+  max-height: 50%;
+}
 
+
+
+.upper1 {
+  grid-template-columns: 1fr; /* Change to a single column */
+  grid-template-rows: auto; /* Allow rows to adjust based on content */
+  grid-template-areas: 
+    "upper-cont"
+    "upper-cont2";
+    /* width: 63%; */
+}
+
+.upper-cont, .upper-cont2, .bottom1 {
+  grid-template-columns: 1fr; /* Change to a single column */
+  grid-template-rows: auto; /* Allow rows to adjust based on content */
+  grid-template-areas: 
+    "content'"; /* You can name this area as you wish */
+}
+
+.upper11, .upper21, .upper12, .upper22, .low1, .low2 {
+  grid-area: content; /* Ensure all items occupy the 'content' area */ 
+}
+
+.low1 { height: auto; }
+
+}
+
+@media (min-width: 820px) {
+  .h-height{
+    max-height: 72%;
+  }
+  
 }

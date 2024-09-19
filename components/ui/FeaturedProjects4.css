@@ -121,22 +121,31 @@
       margin-top: 8%;
   }
 
-
-
+  .marginProject {
+    margin-top: 20px;
+  }
 
   @media screen and (min-width: 320px) and (max-width: 355px) {
     .project-label {
       font-size: 0.7rem;
+      padding: 0 4px;
     }
   
     .project-title {
       font-size: 1.1rem;
+      padding: 0 4px;
+
     }
   
     .project-details p {
       font-size: 0.7rem;
       width: 100%;
       margin-left: 0;
+
+    }
+    .mediaPadding {
+      padding: 0 4px;
+
     }
   
     .flex-row-reverse {
@@ -160,7 +169,9 @@
     }
     
 
-
+    .marginProject {
+      padding: 0 4px;
+    }
 
 
   
@@ -170,10 +181,18 @@
         /* CSS rules for devices with widths between 321 pixels and 768 pixels */
         .project-label {
           font-size: 0.7rem;
+          padding: 0 4px;
+
         }
       
         .project-title {
           font-size: 1.1rem;
+          padding: 0 4px;
+
+        }
+        .mediaPadding {
+          padding: 0 4px;
+    
         }
       
         .project-details p {
@@ -202,7 +221,10 @@
         .m-title-p {
           margin-bottom: 12%;
         }
-        
+        .marginProject {
+          padding: 0 4px;
+        }
+    
     
   
   }
@@ -233,6 +255,10 @@
     margin-top: 12%;
   
   }
+  .mediaPadding {
+    padding: 0 4px;
+
+  }
 
   .project-img {
     position: absolute;
@@ -245,16 +271,23 @@
 
    .project-title {
     font-size: 1.25rem;
+    padding: 0 4px;
+
    }
 
    .project-label {
     font-size: 0.8rem;
+    padding: 0 4px;
+
    }
 
    .m-title-p {
     margin-bottom: 10%;
   }
-  
+  .marginProject {
+    padding: 0 4px;
+  }
+
 
   }
   
@@ -269,7 +302,11 @@
     opacity: 0.5;
     }
   
-    
+    .mediaPadding {
+      padding: 0 4px;
+  
+    }
+  
   .p-featured {
     padding: 0 6%;
   }
@@ -278,6 +315,25 @@
    font-size: 1.125rem;
   }
 
+.project-title {
+  font-size: 1.5rem;
+  padding: 0 4px;
+  margin: 10px 0 12px;
+}
+.project-label {
+  padding: 0 4px;
+  margin-top: 10px;
+
+ }
+ .marginProject {
+  margin-top: 5px;
+}
+.marginProject {
+  padding: 0 4px;
+}
+.m-title-p{
+  margin-bottom: 3%;
+}
 
   
   }
@@ -301,11 +357,26 @@
   }
 
 
-
-
-
+  .project-title {
+    font-size: 1.5rem;
+    padding: 0 4px;
+  }
+  .project-label {
+    padding: 0 4px;
+    margin-top: 10px;
   
-  
+   }
+
+   .marginProject {
+    padding: 0 4px;
+  }
+  .mediaPadding {
+    padding: 0 4px;
+
+  }
+  .project-details p {
+    font-size: 1rem;
+   }
   
   }
   

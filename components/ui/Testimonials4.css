@@ -6,7 +6,7 @@
 	color: #a1aaad;
     padding: 0 6%;
     /* margin-top: 6%; */
-    margin-top: 22%;
+    margin-top: 5%;
 }
 
 .hr {
@@ -39,7 +39,9 @@
 @media screen and (min-width: 320px) and (max-width: 355px) {
     #testimonials-section {
         padding: 0 3%;
-        margin-top: 25%;
+        margin-top: 5%;
+
+        margin-bottom: 15%;
 
     }
 
@@ -70,7 +72,9 @@
 @media screen and (min-width: 356px) and (max-width: 399px) {
     #testimonials-section {
         padding: 0 3%;
-        margin-top: 25%;
+        margin-top: 5%;
+
+        margin-bottom: 15%;
 
     }
 
@@ -101,7 +105,9 @@
     /* CSS rules for devices with widths between 321 pixels and 768 pixels */
     #testimonials-section {
         padding: 0 3%;
-        margin-top: 25%;
+        margin-top: 5%;
+
+        margin-bottom: 15%;
 
     }
 
@@ -111,7 +117,7 @@
     }
 
     .shift{ 
-        height: 230px;
+        height: 270px;
     }
 
     .quote {
@@ -139,7 +145,7 @@
         }
 
         .shift{ 
-            height: 240px;
+            height: 250px;
         }
 
 
@@ -155,6 +161,8 @@
     @media screen and (min-width: 641px) and (max-width: 715px) { 
         #testimonials-section {
             padding: 0 2%;
+            margin-bottom: 15%;
+
         }
 
         .quote {
@@ -163,6 +171,9 @@
         .testimTitle {
             font-size: 1.7rem;
         }
+        .shift{ 
+            height: 171px;
+        }
 
     }
   
@@ -170,7 +181,14 @@
     @media screen and (min-width: 716px) and (max-width: 819px) { 
       /* CSS rules for devices with widths between 321 pixels and 768 pixels */
     
-    
+      #testimonials-section {
+        padding: 0 2%;
+        margin-bottom: 15%;
+
+    }
+    .shift{ 
+        height: 171px;
+    }
     }
 
 

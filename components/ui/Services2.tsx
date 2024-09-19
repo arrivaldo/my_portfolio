@@ -18,31 +18,27 @@ const Services2 = () => {
 
   return (
     <>
-
-<h1
-          className="p-title-services text-xl"
-          style={{
-            width: "100%",
-            color: "#e3e3e3",
-            marginBottom: "2%",
-            display: "flex",
-            justifyContent: "flex-start",
-            fontWeight: "600",
-            marginTop: '6%'
-          }}
-        >
-          {" "}
-          Checkout my Services
-    </h1>
-      
+      <h1
+        className="p-title-services text-xl"
+        style={{
+          width: "100%",
+          color: "#e3e3e3",
+          marginBottom: "2%",
+          display: "flex",
+          justifyContent: "flex-start",
+          fontWeight: "600",
+          marginTop: "6%",
+        }}
+      >
+        {" "}
+        Checkout my Services
+      </h1>
 
       <section
         id="services"
         className="p-services"
         style={{ marginBottom: "6%" }}
       >
-     
-
         <div ref={spotlightRef} className="services-container">
           <div className="group" style={{ padding: "2px" }}>
             <div

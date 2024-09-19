@@ -1,0 +1,36 @@
+.stackLayercontainer {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "topLayer"
+      "bottomLayer";
+      height: 500px;
+      padding: 0 6%;
+      width: 100%;
+  }
+  
+  .topLayer { grid-area: topLayer; background: #000; border: 1px solid #fff; padding: 2% 3%;  }
+  
+  .bottomLayer {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "botLayer1 botLayer2";
+    grid-area: bottomLayer;
+  }
+  
+  .botLayer1 { grid-area: botLayer1;  background: #000; border: 1px solid #fff;   }
+  
+  .botLayer2 { grid-area: botLayer2;  background: #000; border: 1px solid #fff;}
+  
+
+  .tech-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

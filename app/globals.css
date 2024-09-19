@@ -91,8 +91,44 @@
   }
 }
 
-.body {
-  transform: scale(0.9);
+/* body {
+    transform: scale(0.9);
   transform-origin: top left;
-  width: 111.11%; /* 100% / 0.9 */
+  width: 111.11%; 
+  overflow-x: hidden;
+} */
+
+
+
+.linearGrad{
+  background: rgb(143,236,255);
+background: -moz-linear-gradient(90deg, rgba(143,236,255,1) 0%, rgba(143,236,255,1) 16%, rgba(255,153,238,1) 86%, rgba(255,153,238,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(143,236,255,1) 0%, rgba(143,236,255,1) 16%, rgba(255,153,238,1) 86%, rgba(255,153,238,1) 100%);
+background: linear-gradient(90deg, rgba(143,236,255,1) 0%, rgba(143,236,255,1) 16%, rgba(255,153,238,1) 86%, rgba(255,153,238,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8fecff",endColorstr="#ff99ee",GradientType=1);
+border: 0px solid transparent;
+ 
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+
+
+
 }
+
+
+.hoverGrad {
+  opacity: 0; /* Initially transparent */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.hoverGrad:hover {
+  opacity: 1; /* Fully opaque on hover */
+}
+.group {
+  position: relative; /* Ensure positioning context */
+}
+
+.group:hover .hoverGrad {
+  opacity: 1; /* Make the button visible when the parent card is hovered */
+}
+

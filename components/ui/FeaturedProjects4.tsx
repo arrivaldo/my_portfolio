@@ -105,7 +105,7 @@ const FeaturedProjects4: React.FC = () => {
                   color: "rgb(141, 147, 160)",
                   border: "1px solid #c1c1c194",
                 }}
-                className={parrafClass}
+                className={` ${parrafClass} mediaPadding`}
               >
                 {project.description2}
               </p>
@@ -115,8 +115,8 @@ const FeaturedProjects4: React.FC = () => {
             </div>
 
             <ul
-              style={{ fontSize: "15px", color: "#aaa", marginTop: "20px" }}
-              className={`flex ${itemsClass}`}
+              style={{ fontSize: "15px", color: "#aaa" }}
+              className={`flex ${itemsClass} marginProject`}
             >
               {project.items.map((item, itemIndex) => (
                 <li

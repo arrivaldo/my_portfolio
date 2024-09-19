@@ -28,8 +28,9 @@ const Tabs3 = () => {
       <div id="contentTab">
         <div id="one" className={`tab-content ${activeTab === 'one' ? 'active' : ''} overflow-hidden`}>
           {/* <Stack2 /> */}
+          <Stack2 />
+          {/* <GlobeDemo /> */}
           {/* <Stack2 /> */}
-          <GlobeDemo />
         </div>
         <div id="two" className={`tab-content ${activeTab === 'two' ? 'active' : ''}`}>
             <Certifications />

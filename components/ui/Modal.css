@@ -32,9 +32,19 @@
     font-size: 1rem;
 }
 
+.service-title{
+    width: 52%;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
 
-
-
+.cardBorder {
+    border: 1px solid #c1c1c194;
+    padding: 5%;
+    color: #fff;
+    background: rgb(0 0 69);
+   
+}
 
 
 @media screen and (min-width: 320px) and (max-width: 355px) {
