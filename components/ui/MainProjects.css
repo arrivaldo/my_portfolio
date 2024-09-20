@@ -1,0 +1,73 @@
+
+.featured-container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 0 6%;
+    gap: 1.2rem;
+}
+
+.featured-text1 {
+    background: rgb(0, 0, 69);
+    padding: 5%;
+    border-radius: 4px ;
+    height: 300px;
+
+}
+.text-width {
+    width: 100%;
+    font-weight: 700;
+
+}
+
+.featured-image1 {
+    flex: 1.3;
+    background-image: url('../../public//images//featured1.png');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    border: 1px solid #c1c1c194;
+    border-radius: 4px ;
+}
+
+.clipped-div {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    clip-path: url(#benefits); 
+    z-index: 1;
+  }
+  
+  .clipped-div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    clip-path: url(#benefits); 
+    z-index: 15; 
+    pointer-events: none; 
+  }
+  
+
+  .container-b {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .svg-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the SVG */
+    padding: 20px;
+  }
+  

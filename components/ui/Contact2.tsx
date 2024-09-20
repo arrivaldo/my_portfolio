@@ -61,7 +61,7 @@ const SignupFormDemo = () => {
             <Label htmlFor="firstname">Name</Label>
             <Input
               id="firstname"
-              placeholder="John"
+              placeholder="John Doe"
               type="text"
               name="name"
               value={firstName}

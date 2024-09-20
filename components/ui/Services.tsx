@@ -86,38 +86,44 @@ const Services = () => {
                     title="Full Stack Developer"
                     timeline={[
                       {
-                        date: "February 2022",
+                        date: "",
                         title: "MERN Stack Development",
                         description:
                           "Application development using Mongo DB, Express.js, React and Node.js.",
                       },
                       {
-                        date: "March 2022",
-                        title: "Pega System Architect",
+                        date: "",
+                        title: "Pega Consulting & Development",
                         description:
                           "Application development through Pega's CRM as a certified CSA.",
                       },
                       {
                         date: "",
                         title:
-                          "Continuous Integration/Continuous Deployment (CI/CD)",
+                          "Frontend Development",
                         description:
-                          "All of the pages and components are first designed in Figma.",
+                          "Build responsive and dynamic web interfaces using JavaScript, React, Next.js and the most modern frameworks",
                       },
                       {
-                        date: "March 2022",
-                        title: "RESTful API Integration",
+                        date: "",
+                        title: "Backend Development",
                         description:
-                          "All of the pages and components are first designed in Figma.",
+                          "Implementing server-side logic, APIs, and databases using Node.js, Express, or similar technologies.",
                       },
                       {
-                        date: "March 2022",
-                        title: "More technologies i've worked with",
+                        date: "",
+                        title: "Database Management",
+                        description:
+                          "Designing, optimizing, and managing relational (SQL) and NoSQL databases (MongoDB, etc.)."
+                      },
+                      {
+                        date: "",
+                        title: "Technologies i've worked with",
                         description:
                           "TypeScript, C, SQL, Next.js,  Three.js, React Native, Tailwind, Webflow, ES6+",
                       },
                       {
-                        date: "March 2022",
+                        date: "",
                         title: "Other Important Topics",
                         description:
                           "Version Control (Git), Testing (TDD), Performance (Code Splitting, Lazy Loading)",
@@ -188,7 +194,7 @@ const Services = () => {
                     timeline={[
                       {
                         description:
-                          "I've been the QA leader of a testing team for some international projects.",
+                          "Exprienced QA leader implementing end-to-end testing strategies for multiple international projects.",
                       },
                       {
                         description:

@@ -30,6 +30,9 @@ import Tabs3 from "@/components/ui/Tabs3";
 import StarCard from "@/components/ui/StarCard";
 import Stack2 from "@/components/ui/Stack2";
 import Stack3 from "@/components/ui/Stack3";
+import Technologies from '@/components/ui/Technologies'
+import MainProjects from '@/components/ui/MainProjects'
+import TagScroller from '@/components/ui/TagScroller'
 
 export default function Home() {
   return (
@@ -51,9 +54,15 @@ export default function Home() {
 
 
         <Services />
+        {/* <Technologies /> */}
         {/* <InfiniteCards /> */}
         {/* <Services2 /> */}
         {/* <Services3 /> */}
+
+<TagScroller />
+
+        <MainProjects />
+
         <FeaturedProjects4 />
         {/* <About4 /> */}
         {/* <GlobeDemo /> */}
