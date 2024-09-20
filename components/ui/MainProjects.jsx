@@ -52,7 +52,7 @@ const MainProjects = () => {
             <h2 className="text-xl text-width mt-4">Full Stack Blog App</h2>
 
             <p className="mt-4">
-              I've created Code & Toast blog, to share my articles in a way
+              Ive created Code & Toast blog, to share my articles in a way
               everyone finds it interesting and resourceful.
             </p>
 
