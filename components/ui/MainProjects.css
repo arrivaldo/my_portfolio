@@ -5,15 +5,41 @@
     height: 300px;
     padding: 0 6%;
     gap: 1.2rem;
+    margin-bottom: 3%;
 }
 
 .featured-text1 {
     background: rgb(0, 0, 69);
-    padding: 5%;
+    padding: 2%;
     border-radius: 4px ;
     height: 300px;
-
+    flex: 0.7;
+    border: 1px solid #c1c1c194;
 }
+
+.featured-text2 {
+  background: rgb(0, 0, 69);
+  padding: 2%;
+  border-radius: 4px ;
+  height: 300px;
+  flex: 1.3;
+  background-image: url('../../public//images/nedelka.png');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.featured-text3 {
+  background: rgb(0, 0, 69);
+  padding: 2%;
+  border-radius: 4px ;
+  height: 300px;
+  flex: 0.7;
+  border: 1px solid #c1c1c194;
+}
+
+
+
 .text-width {
     width: 100%;
     font-weight: 700;
@@ -22,12 +48,31 @@
 
 .featured-image1 {
     flex: 1.3;
-    background-image: url('../../public//images//featured1.png');
+    background-image: url('../../public//images/featured1.png');
     background-size: cover; /* Ensures the image covers the entire container */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     border: 1px solid #c1c1c194;
     border-radius: 4px ;
+}
+.featured-image2 {
+  flex: 0.7;
+  background: rgb(0, 0, 69);
+  padding: 2%;
+  border: 1px solid #c1c1c194;
+  border-radius: 4px ;
+}
+
+.featured-image3 {
+  flex: 1.3;
+  background: rgb(0, 0, 69);
+  background-image: url('../../public//images/astro-portfolio.png');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  padding: 2%;
+  border: 1px solid #c1c1c194;
+  border-radius: 4px ;
 }
 
 .clipped-div {

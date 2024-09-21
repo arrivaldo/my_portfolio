@@ -49,7 +49,9 @@ export default function Home() {
         {/* <TracingBeam> */}
         <PortfolioHome />
         {/* <Clients /> */}
-        <Clients />
+        {/* <Clients /> */}
+        <TagScroller />
+
         {/* <Clients2 /> */}
 
 
@@ -59,16 +61,18 @@ export default function Home() {
         {/* <Services2 /> */}
         {/* <Services3 /> */}
 
-<TagScroller />
 
-        <MainProjects />
+        {/* <MainProjects /> */}
 
         <FeaturedProjects4 />
         {/* <About4 /> */}
         {/* <GlobeDemo /> */}
         {/* <About4 /> */}
         {/* <About5 /> */}
+        {/* <Hero /> */}
+
         <About6 />
+        
         {/* <About6 /> */}
         {/* <CustomSkills /> */}
 
@@ -103,7 +107,6 @@ export default function Home() {
         {/* <Contact /> */}
         <Contact2 />
         <Footer />
-        {/* <Hero /> */}
 
         {/* 
         <Grid />

@@ -167,7 +167,7 @@ const SignupFormDemo = () => {
           >
             <IconBrandOnlyfans className="h-4 w-4 text-white dark:text-neutral-300" />
             <span className="text-white dark:text-neutral-300 text-sm">
-              OnlyFans
+              Github
             </span>
             <BottomGradient />
           </button>

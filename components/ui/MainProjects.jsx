@@ -17,6 +17,7 @@ const MainProjects = () => {
           justifyContent: "flex-start",
           fontWeight: "600",
           padding: "0 6%",
+          marginBottom: '2%'
         }}
       >
         Checkout some of my personal projects
@@ -46,32 +47,89 @@ const MainProjects = () => {
         </div> */}
 
         {/* <ClipPath /> */}
-        <div className="clipped-div">
-          <div className="featured-text1">
-            <h3 className="text-sm">Featured 1</h3>
-            <h2 className="text-xl text-width mt-4">Full Stack Blog App</h2>
+        <div className="featured-text1">
+          <h3 className="text-sm">Featured 1</h3>
+          <h2 className="text-xl text-width mt-4">Full Stack Blog App</h2>
 
-            <p className="mt-4">
-              Ive created Code & Toast blog, to share my articles in a way
-              everyone finds it interesting and resourceful.
-            </p>
+          <p className="mt-4">
+            Ive created Code & Toast blog, to share my articles in a way
+            everyone finds it interesting and resourceful.
+          </p>
 
-            <ul className="flex gap-2 text-sm mt-4">
-              <li>React</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-            </ul>
+          <ul className="flex gap-2 text-sm mt-4">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+          </ul>
 
-            <button
-              style={{ padding: "2% 14%", marginTop: "13%" }}
-              className="bg-black text-white-100 mt-4 text-sm"
-            >
-              View details
-            </button>
-          </div>
+          <button
+            style={{ padding: "2% 14%", marginTop: "13%" }}
+            className="bg-black text-white-100 mt-4 text-sm"
+          >
+            View details
+          </button>
         </div>
-
         <div className="featured-image1"></div>
+      </div>
+
+      <div className="featured-container">
+        <div className="featured-text2"></div>
+        <div className="featured-image2">
+          <h3 className="text-sm">Featured 1</h3>
+          <h2 className="text-xl text-width mt-4">
+            Real Artist Personal Website
+          </h2>
+
+          <p className="mt-4">
+            Artist website made for showcasing Nedelka's musical and acting
+            trajectory as she ventures into her projects.
+          </p>
+
+          <ul className="flex gap-2 text-sm mt-4">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+          </ul>
+
+          <button
+            style={{ padding: "2% 14%", marginTop: "7%" }}
+            className="bg-black text-white-100 mt-4 text-sm"
+          >
+            View details
+          </button>
+        </div>
+      </div>
+
+
+
+      <div className="featured-container">
+
+      <div className="featured-text3">
+          <h3 className="text-sm">Featured 1</h3>
+          <h2 className="text-xl text-width mt-4">Full Stack Blog App</h2>
+
+          <p className="mt-4">
+            Ive created Code & Toast blog, to share my articles in a way
+            everyone finds it interesting and resourceful.
+          </p>
+
+          <ul className="flex gap-2 text-sm mt-4">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+          </ul>
+
+          <button
+            style={{ padding: "2% 14%", marginTop: "13%" }}
+            className="bg-black text-white-100 mt-4 text-sm"
+          >
+            View details
+          </button>
+        </div>
+        <div className="featured-image3"></div>
+
+
+
       </div>
 
       {/* <div style={{}} className="container-b">
