@@ -81,7 +81,7 @@ const MainProjects = () => {
           </h2>
 
           <p className="mt-4">
-            Artist website made for showcasing Nedelka's musical and acting
+            Artist website made for showcasing Nedelkas musical and acting
             trajectory as she ventures into her projects.
           </p>
 
