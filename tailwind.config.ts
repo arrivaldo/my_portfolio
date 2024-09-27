@@ -29,6 +29,8 @@ const config = {
 
 screens: {
 
+     'tinyScreen': { 'max': '319px' }, // For widths less than 320px
+
       'tinyMobile': {'min': '320px', 'max': '355px'},
       'mobile': {'min': '356px', 'max': '399px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }

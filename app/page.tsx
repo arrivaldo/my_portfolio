@@ -33,6 +33,9 @@ import Stack3 from "@/components/ui/Stack3";
 import Technologies from '@/components/ui/Technologies'
 import MainProjects from '@/components/ui/MainProjects'
 import TagScroller from '@/components/ui/TagScroller'
+import StackAnim from '@/components/ui/StackAnim'
+import { ProductShowcase } from "@/components/ui/ProductShowcase";
+import Chatbot from '@/app/chatbot/page'
 
 export default function Home() {
   return (
@@ -54,29 +57,37 @@ export default function Home() {
 
         {/* <Clients2 /> */}
 
+        {/* <Chatbot /> */}
 
         <Services />
-        {/* <Technologies /> */}
         {/* <InfiniteCards /> */}
         {/* <Services2 /> */}
         {/* <Services3 /> */}
 
+        {/* <ProductShowcase /> */}
 
-        {/* <MainProjects /> */}
+        <MainProjects />
+        {/* <FeaturedProjects4 /> */}
 
-        <FeaturedProjects4 />
+
         {/* <About4 /> */}
         {/* <GlobeDemo /> */}
         {/* <About4 /> */}
         {/* <About5 /> */}
         {/* <Hero /> */}
 
+
         <About6 />
+        <Testimonials4 />
+
         
         {/* <About6 /> */}
         {/* <CustomSkills /> */}
 
-        <Testimonials4 />
+
+        {/* <Technologies /> */}
+        <StackAnim />
+
 
         {/* <div style={{padding: '6%'}} className="flex">
 <StarCard />
@@ -106,6 +117,8 @@ export default function Home() {
         <Projects2 />
         {/* <Contact /> */}
         <Contact2 />
+
+
         <Footer />
 
         {/* 

@@ -2,6 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import { PiFilePdfBold } from "react-icons/pi";
 import { FaRegEnvelope } from "react-icons/fa";
+import confetti from 'canvas-confetti';
+
+
 
 const Jobs = () => {
   const jobs = [
@@ -39,10 +42,18 @@ const Jobs = () => {
     }
   ];
 
+  const triggerConfetti = () => {
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 }
+    });
+  };
+
   return (
     <div className="w-full p-4 rounded-lg shadow sm:p-8">
       <div className="flex items-center justify-between mb-4">
-        <h5 className="text-xl tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem] font-bold leading-none">
+        <h5 className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] font-bold leading-none">
           Latest Customers
         </h5>
         <svg
@@ -80,14 +91,14 @@ const Jobs = () => {
                   />
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] font-medium truncate">
+                  <p className="text-xl tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[1.05rem] font-medium truncate">
                     {job.company}
                   </p>
                   <p className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] truncate">
                     {job.position}
                   </p>
                 </div>
-                <div className="inline-flex text-xl tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[1.05rem] items-center font-semibold">
+                <div className="inline-flex text-xl tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.9rem] items-center font-semibold">
                   <span>{job.startDate}-</span>
                   <span>{job.endDate}</span>
                 </div>
@@ -97,6 +108,9 @@ const Jobs = () => {
         </ul>
         <div className="mt-5 flex justify-between gap-5">
           <a
+                      onClick={triggerConfetti} // Add this onClick to trigger confetti
+
+          href="/my_resume.pdf"            download
             className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] gap-2"
             style={{ width: '100%', border: '1px solid #c1c1c159', padding: '2%', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}
           >
@@ -105,6 +119,12 @@ const Jobs = () => {
             <span className="hidden tinyMobile:block mobile:block mobileBig:block tablet:block bigTablet:block">Resume</span>
           </a>
           <a
+          onClick={() => {
+            const contactElement = document.getElementById("contact");
+            if (contactElement) {
+              contactElement.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
             className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] gap-2"
             style={{ width: '100%', border: '1px solid #c1c1c159', padding: '2%', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}
           >

@@ -14,7 +14,7 @@ const Label = React.forwardRef<
   style={{color: '#fff'}}
     ref={ref}
     className={cn(
-      "text-sm font-medium text-white dark:text-white leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+      "text-[1rem] tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] font-medium text-white dark:text-white leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
       className
     )}
     {...props}

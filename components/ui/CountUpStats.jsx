@@ -54,7 +54,7 @@ const Stat = ({ num, suffix, decimals = 0, subheading }) => {
 
   return (
     <div className="flex  flex-col items-center ">
-      <p className="mb-2 text-center text-4xl tinyMobile:text-[2rem] mobile:text-[2rem] mobileBig:text-[2rem] font-semibold">
+      <p className="mb-2 text-center text-4xl tinyMobile:text-[1.3rem] mobile:text-[1.3rem] mobileBig:text-[2rem] font-semibold">
         <span style={{fontSize: '2rem'}} ref={ref}></span>
         {suffix}
       </p>

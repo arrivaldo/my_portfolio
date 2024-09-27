@@ -77,22 +77,22 @@ const About6 = () => {
                 >
                   <div className="group upper12">
                     <div className="flex flex-col">
-                      <h3 className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem]">
+                      <h3 className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.8rem]">
                         April 5, 2024
                       </h3>
-                      <h2 className="text-xl tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem] font-bold py-2">
+                      <h2 className="text-xl tinyMobile:text-[1rem] mobile:text-[1rem] mobileBig:text-[1.05rem] font-bold py-2">
                         Crafting a design system for a multiplanetary
                       </h2>
-                      <ul className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem] flex gap-4 pb-2 ">
+                      <ul className="text-lg tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] flex gap-4 pb-2 ">
                         <li>#Arquitecture</li>
                         <li>#Engineering</li>
                       </ul>
-                      <p className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem] pb-2">
+                      <p className="text-lg tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] pb-2">
                         Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Iure eligendi fugiat vitae expedita deserunt
                         aliquam recusandae.
                       </p>
-                      <a className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem] text-[#84cdeb]">
+                      <a className="text-lg tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] text-[#84cdeb]">
                         Read article -
                       </a>
                     </div>
@@ -112,22 +112,22 @@ const About6 = () => {
                 >
                   <div className="group upper22">
                     <div className="flex flex-col">
-                      <h3 className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem]">
+                      <h3 className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.8rem]">
                         April 5, 2024
                       </h3>
-                      <h2 className="text-xl tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem] font-bold py-2">
+                      <h2 className="text-xl tinyMobile:text-[1rem] mobile:text-[1rem] mobileBig:text-[1.05rem] font-bold py-2">
                         Crafting a design system for a multiplanetary
                       </h2>
-                      <ul className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem] flex gap-4 pb-2 ">
+                      <ul className="text-lg tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] flex gap-4 pb-2 ">
                         <li>#Arquitecture</li>
                         <li>#Engineering</li>
                       </ul>
-                      <p className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem] pb-2">
+                      <p className="text-lg tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] pb-2">
                         Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Iure eligendi fugiat vitae expedita deserunt
                         aliquam recusandae.
                       </p>
-                      <a className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem] text-[#84cdeb]">
+                      <a className="text-lg tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] text-[#84cdeb]">
                         Read article -
                       </a>
                     </div>

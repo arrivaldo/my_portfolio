@@ -23,6 +23,40 @@
   .m-button {
     margin-top: 5%;
   }
+
+
+  @media screen and (max-width: 319px) {
+
+    .p-midHome{
+      padding: 5% 5%;
+    }
+  
+   .padding-home {
+    padding: 0 5%;
+    margin-top: 10%;
+   } 
+  
+   .mainText {
+    width: 100%;
+   }
+  
+   .home-video {
+    width: 80%;
+  }
+  
+  .tinyMobile {
+    font-size: 5rem
+  }
+  .headWidth {
+    width: 99%;
+  }
+  .subHead{
+    width: 115%;
+  }
+
+
+  }
+
   
   @media screen and (min-width: 320px) and (max-width: 355px) {
   
@@ -47,7 +81,7 @@
     font-size: 5rem
   }
   .headWidth {
-    width: 99%;
+    width: 105%;
   }
   .subHead{
     width: 115%;
@@ -203,11 +237,11 @@
   }
   
   .headWidth{
-    width: 78%;
+    width: 81%;
   }
   
   .subHead{
-    width: 90%;
+    width: 94%;
   }
   
   }
@@ -230,7 +264,7 @@
   }
   
   .headWidth{
-    width: 85%;
+    width: 87%;
   }
   
   .subHead{
@@ -246,8 +280,54 @@
   }
   
   }
+
+  @media screen and (min-width: 716px) and (max-width: 718px) { 
+
+    .p-midHome{
+      padding: 5% 6%;
+    }
+
+   .padding-home {
+    padding: 0 6%;
+   } 
+
+   .headWidth{
+    width: 104%;
+  }
+   
+.mainText {
+  width: 70%;
+}
+.subHead{
+  width: 115%;
+}
+
+}
+
+
+@media screen and (min-width: 719px) and (max-width: 737px) { 
+  .p-midHome{
+    padding: 5% 6%;
+  }
+
+ .padding-home {
+  padding: 0 6%;
+ } 
+
+ .headWidth{
+  width: 104%;
+}
+ 
+.mainText {
+width: 70%;
+}
+.subHead{
+width: 115%;
+}
+
+}
   
-  @media screen and (min-width: 716px) and (max-width: 819px) { 
+  @media screen and (min-width: 738px) and (max-width: 819px) { 
     /* CSS rules for devices with widths between 321 pixels and 768 pixels */
     .p-midHome{
         padding: 5% 6%;
@@ -268,11 +348,91 @@
   }
 
 
-  @media screen and (min-width: 820px) and (max-width: 946px) { 
+  @media screen and (min-width: 820px) and (max-width: 826px) { 
+
+    .headWidth{
+      width: 101%;
+    }
+
+    .subHead{
+      width: 118%;
+    }
+  }
+
+
+  @media screen and (min-width: 827px) and (max-width: 892px) { 
     /* CSS rules for devices with widths between 321 pixels and 768 pixels */
     
     .headWidth{
-      width: 97%;
+      width: 104%;
+    }
+
+    .subHead{
+      width: 118%;
+    }
+
+
+
+  }
+
+
+
+  @media screen and (min-width: 893px) and (max-width: 909px) { 
+    .headWidth{
+      width: 102%;
+    }
+
+    .subHead{
+      width: 118%;
+    }
+
+
+  }
+
+  @media screen and (min-width: 910px) and (max-width: 919px) { 
+    .headWidth{
+      width: 100%;
+    }
+
+    .subHead{
+      width: 118%;
+    }
+
+
+  }
+
+
+  @media screen and (min-width: 920px) and (max-width: 926px) { 
+    .headWidth{
+      width: 100%;
+    }
+
+    .subHead{
+      width: 118%;
+    }
+
+
+  }
+  
+  @media screen and (min-width: 927px) and (max-width: 946px) { 
+    .headWidth{
+      width: 98%;
+    }
+
+    .subHead{
+      width: 118%;
+    }
+
+
+  }
+
+
+
+  @media screen and (min-width: 947px) and (max-width: 955px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    
+    .headWidth{
+      width: 103%;
     }
 
     .subHead{
@@ -282,3 +442,18 @@
 
 
   }
+  
+
+
+  @media screen and (min-width: 956px) and (max-width: 974px) { 
+    /* CSS rules for devices with widths between 321 pixels and 768 pixels */
+    
+    .headWidth{
+      width: 102%;
+    }
+
+ 
+
+
+  }
+  

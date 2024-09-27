@@ -2,12 +2,18 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      domains: ['pbs.twimg.com'],
-      domains: ['cdn.dribbble.com'],
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'pbs.twimg.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.dribbble.com',
+      },
+    ],
+  },
+};
 
-    },
-  };
-  
-  export default nextConfig;
-  
+export default nextConfig;

@@ -25,10 +25,9 @@ const Services = () => {
           style={{
             width: "100%",
             color: "#e3e3e3",
-            marginBottom: "2%",
             display: "flex",
             justifyContent: "flex-start",
-            fontWeight: "600",
+            fontWeight: "700",
           }}
         >
           {" "}
@@ -54,10 +53,10 @@ const Services = () => {
             >
               <div className="service-box4 flex flex-col justify-between h-24">
                 <div className="flex items-center  justify-between">
-                  <h3 className="text-xl mobile:hidden tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem]">
+                <h3 className="text-xl bigTablet:hidden tablet:hidden tinyScreen:hidden tinyMobile:hidden mobile:hidden mobileBig:hidden tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem] thisText">
                     Full Stack Dev
                   </h3>
-                  <h3 className="hidden mobile:block text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]">
+                  <h3 className="hidden bigTablet:block tablet:block tinyScreen:block tinyMobile:block mobile:block mobileBig:block text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]">
                     Full Stack Developer
                   </h3>{" "}
                   {/* <svg
@@ -176,10 +175,10 @@ const Services = () => {
             >
               <div className="service-box4 flex flex-col justify-between h-24">
                 <div className="flex items-center  justify-between">
-                  <h3 className="text-xl mobile:hidden tinyMobile:text-[0.9rem] mobile:text-[0.9rem]">
-                    QA Analyst
+                <h3 className="text-xl bigTablet:hidden tablet:hidden tinyScreen:hidden tinyMobile:hidden mobile:hidden mobileBig:hidden tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem] thisText">
+                QA Analyst
                   </h3>
-                  <h3 className="hidden mobile:block text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem]">
+                  <h3 className="hidden bigTablet:block tablet:block tinyScreen:block tinyMobile:block mobile:block mobileBig:block text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]">
                     Quality Analyst
                   </h3>
                 </div>
@@ -263,10 +262,10 @@ const Services = () => {
             >
               <div className="service-box4 flex flex-col justify-between h-24">
                 <div className="flex items-center  justify-between">
-                  <h3 className="text-xl mobile:hidden tinyMobile:text-[0.9rem] mobile:text-[0.9rem]">
+                <h3 className="text-xl bigTablet:hidden tablet:hidden tinyScreen:hidden tinyMobile:hidden mobile:hidden mobileBig:hidden tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem] thisText">
                     B. Architect
                   </h3>
-                  <h3 className="hidden mobile:block text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem]">
+                  <h3 className="hidden bigTablet:block tablet:block tinyScreen:block tinyMobile:block mobile:block mobileBig:block text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]">
                     Business Architect
                   </h3>
                 </div>
@@ -349,11 +348,11 @@ const Services = () => {
             >
               <div className="service-box4 flex flex-col justify-between h-24">
                 <div className="flex items-center  justify-between">
-                  <h3 className="text-xl mobile:hidden tinyMobile:text-[0.9rem] mobile:text-[0.9rem]">
+                <h3 className="text-xl bigTablet:hidden tinyScreen:hidden tinyMobile:hidden mobile:hidden mobileBig:hidden tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.05rem] thisText">
                     M. Engineer
                   </h3>
-                  <h3 className="hidden mobile:block text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem]">
-                    Mechatronich Engineer
+                  <h3 className="hidden bigTablet:block tinyScreen:block tinyMobile:block mobile:block mobileBig:block text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]">
+                    Mechatronic Engineer
                   </h3>
                 </div>
 

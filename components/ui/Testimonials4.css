@@ -50,7 +50,7 @@
         margin-bottom: 8%;
     }
     .shift{ 
-        height: 245px;
+        height: 232px;
     }
     .parraf-container {
         width: 102%; margin-left: 0%
@@ -83,7 +83,7 @@
         margin-bottom: 8%;
     }
     .shift{ 
-        height: 250px;
+        height: 237px;
     }
 
     .parraf-container {
@@ -94,7 +94,7 @@
         font-size: 3.2rem;
     }
     .testimTitle {
-        font-size: 1.05rem;
+        font-size: 1rem;
     }
 
   }
@@ -117,14 +117,14 @@
     }
 
     .shift{ 
-        height: 270px;
+        height: 250px;
     }
 
     .quote {
         font-size: 3.2rem;
     }
     .testimTitle {
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
 
 
@@ -162,6 +162,7 @@
         #testimonials-section {
             padding: 0 2%;
             margin-bottom: 15%;
+            margin-top: 10%;
 
         }
 

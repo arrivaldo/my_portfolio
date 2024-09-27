@@ -411,10 +411,10 @@
            }}
            className="div mt-7"
          >
-           <h2 className="text-center text-xl md:text-4xl font-bold text-white dark:text-white">
+           <h2 className="text-center text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] font-bold text-white dark:text-white">
              We sell soap worldwide
            </h2>
-           <p className="text-center text-base md:text-lg font-normal text-white dark:text-neutral-200 max-w-md mt-2 mx-auto">
+           <p className="text-center tinyMobile:text-[0.7rem] mobile:text-[0.7rem]  mobileBig:text-[0.9rem] text-base md:text-lg font-normal text-white dark:text-neutral-200 max-w-md mt-2 mx-auto">
              This globe is interactive and customizable. Have fun with it, and
              don&apos;t forget to share it. :)
            </p>

@@ -34,9 +34,9 @@ const Testimonials4 = () => {
     {
       id: 4,
       img: "https://images.unsplash.com/photo-1614644147798-f8c0fc9da7f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
-      name: "Danica W.",
-      title: "Founder of XYZ",
-      info: "Erick demostró no solo habilidades técnicas sólidas sino también un compromiso importante con sus responsabilidades. Su enfoque meticuloso y su capacidad para abordar desafíos complejos fueron de gran valor para el equipo y contribuyeron significativamente al éxito de nuestros proyectos. ",
+      name: "Company",
+      title: "Rules Cube",
+      info: "Erick demonstrated not only strong technical skills but also a significant commitment to his responsibilities. His meticulous approach and ability to tackle complex challenges were of great value to the team and contributed significantly to the success of our projects.",
     },
     {
       id: 5,
@@ -106,8 +106,8 @@ const Testimonials4 = () => {
 
       <div className="container-testimonial">
         <div className="section-title">
-          <h2 style={{ color: "#e3e3e3" }} className="testimTitle tinyMobile:text-[1.05rem] mobile:text-[1.05rem] mobileBig:text-[1.5rem]">
-            What they said <strong>about us</strong>
+          <h2 style={{ color: "#e3e3e3" }} className="testimTitle tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]">
+            What they said <strong>about me</strong>
           </h2>
           <div className="flex justify-center w-full">
             <hr className="hr" />
@@ -123,12 +123,12 @@ const Testimonials4 = () => {
               filter: "brightness(1.3)",
               color: "#8d93a0",
             }}
-            className="shift text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]"
+            className="shift text-xl tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem]"
           >
             {testimonials[currentIndex].info}
           </p>
-          <p style={{ color: "#e3e3e3" }} className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] mt-4">
-            <strong className="text-lg tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem]">
+          <p style={{ color: "#e3e3e3" }} className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem] mt-4">
+            <strong className="text-lg tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem]">
               {testimonials[currentIndex].name}
             </strong>
             , {testimonials[currentIndex].title}

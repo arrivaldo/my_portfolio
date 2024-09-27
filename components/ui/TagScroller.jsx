@@ -42,18 +42,9 @@ const TagScroller = () => {
     <>
     
     <h1
-        className="p-title-clients text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem]  mobileBig:text-[1.05rem]"
+        className="clientClass p-title-clients text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem]  mobileBig:text-[1.05rem]"
         style={{
-          width: "100%",
-          color: "#e3e3e3",
-
-          // marginBottom: "1%",
-          display: "flex",
-          justifyContent: "flex-start",
-          fontWeight: "600",
-          marginBottom: '2%',
-          marginTop: '5%',
-          padding: '0 6%'
+          fontWeight: '700'
         }}
       >
         {" "}

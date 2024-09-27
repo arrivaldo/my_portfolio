@@ -23,7 +23,7 @@ const Projects2 = () => {
 
   return (
     <section className='p-proyects' style={{ marginTop: '10%' }}>
-      <h1 style={{ fontWeight: '600' }} className="proyects-title">Check out some of my work.</h1>
+      <h1 style={{ fontWeight: '700' }} className="proyects-title">Check out some of my work.</h1>
 
       <div ref={spotlightRef} className="mx-auto checkmate-container ">
 

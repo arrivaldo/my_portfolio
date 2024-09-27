@@ -34,6 +34,7 @@
 .proyects-title {
   font-size: 1.25rem;
   margin-bottom: 3%;
+  font-weight: 700;
 }
 
   
@@ -44,8 +45,8 @@
       }
 
       .proyects-title {
-        margin-bottom: 5%;
-        font-size: 1.05rem;
+        margin-bottom: 7%;
+        font-size: 0.9rem;
 
       }
       
@@ -58,7 +59,7 @@
       padding: 0% 5%;
     }
     .proyects-title {
-      margin-bottom: 5%;
+      margin-bottom: 7%;
       font-size: 1.05rem;
 
     }

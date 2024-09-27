@@ -39,7 +39,9 @@
   margin-top: 6%;
 }
 
-
+.services-title {
+  margin-bottom: 2%;
+}
 
 /* @media screen and (max-width: 768px) {
   .services-container {
@@ -64,6 +66,8 @@
   }
   .services-title {
     font-size: 0.9rem;
+    margin-top: 12%;
+    margin-bottom: 7%;
   }
   
 }
@@ -88,6 +92,8 @@
 
   .services-title {
     font-size: 1.05rem;
+    margin-top: 12%;
+    margin-bottom: 7%;
   }
   
 }
@@ -102,6 +108,12 @@
   #services {
     padding: 0 6%;
   }
+  .services-title {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  
 }
 
 
@@ -121,6 +133,9 @@
 
   #services {
     padding: 0 10%;
+  }
+  .services-title {
+    margin-bottom: 4%;
   }
 
 }
@@ -148,7 +163,22 @@
 }
 
 
-@media screen and (min-width: 820px) and (max-width: 946px) { 
+
+@media screen and (min-width: 820px) and (max-width: 825px) { 
+  .services-container {
+    grid-template-columns: repeat(auto-fit, minmax(115px, 1fr)); /* Automatically adjust column width */
+
+    
+  }
+/* 
+  .thisText{
+    width: 101% !important;
+  } */
+
+}
+
+
+@media screen and (min-width: 826px) and (max-width: 946px) { 
   /* CSS rules for devices with widths between 321 pixels and 768 pixels */
   .services-container {
     grid-template-columns: repeat(auto-fit, minmax(115px, 1fr)); /* Automatically adjust column width */
