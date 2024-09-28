@@ -44,7 +44,8 @@ import { useEffect,Suspense } from "react";
 export default function Home() {
   useEffect(() => {
     // Set the zoom level of the body to 90%
-    document.body.style.zoom = '0.9';
+    (document.body.style as any).zoom = '0.9';
+
   }, []);
   return (
     <>
