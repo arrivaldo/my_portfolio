@@ -48,7 +48,8 @@
     font-size: 5rem
   }
   .headWidth {
-    width: 99%;
+    width: 105%;
+    font-size: 1.25rem;
   }
   .subHead{
     width: 115%;
@@ -81,10 +82,10 @@
     font-size: 5rem
   }
   .headWidth {
-    width: 105%;
+    width: 95%;
   }
   .subHead{
-    width: 115%;
+    width: 105%;
   }
   
   }
@@ -108,10 +109,10 @@
       width: 80%;
     }
     .subHead{
-      width: 107%;
+      width: 97%;
     }
     .headWidth {
-      width: 107%;
+      width: 97%;
     }
     
   
@@ -137,18 +138,18 @@
   }
   
   .headWidth {
-    width: 95%;
+    width: 89%;
   }
 
   .subHead{
-    width: 105%;
+    width: 100%;
   }
   
   }
   
   
   
-  @media screen and (min-width: 432px) and (max-width: 500px) {
+  @media screen and (min-width: 432px) and (max-width: 495px) {
   
     .p-midHome{
       padding: 5% 7%;
@@ -167,14 +168,44 @@
     width: 80%;
   }
   .headWidth {
-    width: 95%;
+    width: 85%;
   }
   .subHead{
-    width: 106%;
+    width: 94%;
   }
   
   }
   
+
+  @media screen and (min-width: 496px) and (max-width: 500px) {
+  
+    .p-midHome{
+      padding: 5% 7%;
+    }
+  
+   .padding-home {
+    padding: 0 7%;
+    margin-top: 10%;
+   } 
+  
+   .mainText {
+    width: 95%;
+   }
+  
+   .home-video {
+    width: 80%;
+  }
+  .headWidth {
+    width: 83%;
+  }
+  .subHead{
+    width: 94%;
+  }
+  
+  }
+
+
+
   @media screen and (min-width: 501px) and (max-width: 572px) { 
   
     .p-midHome{
@@ -191,12 +222,10 @@
     width: 100%;
   }
   
-  .headWidth{
-    width: 77%;
-  }
+  
   
   .subHead{
-    width: 105%;
+    width: 94%;
   }
   
   
@@ -204,7 +233,7 @@
     width: 80%;
   }
   .headWidth {
-    width: 90.5%;
+    width: 81%;
   }
   
   
@@ -237,11 +266,11 @@
   }
   
   .headWidth{
-    width: 81%;
+    width: 72%;
   }
   
   .subHead{
-    width: 94%;
+    width: 83%;
   }
   
   }
@@ -264,11 +293,11 @@
   }
   
   .headWidth{
-    width: 87%;
+    width: 78%;
   }
   
   .subHead{
-    width: 95%;
+    width: 85%;
   }
   
   .home-video {
@@ -315,7 +344,7 @@
  } 
 
  .headWidth{
-  width: 104%;
+  width: 101%;
 }
  
 .mainText {
@@ -342,7 +371,11 @@ width: 115%;
     width: 68%;
   }
   .subHead{
-    width: 115%;
+    width: 110%;
+  }
+
+  .headWidth{
+    width: 90%;
   }
 
   }
@@ -364,11 +397,11 @@ width: 115%;
     /* CSS rules for devices with widths between 321 pixels and 768 pixels */
     
     .headWidth{
-      width: 104%;
+      width: 93%;
     }
 
     .subHead{
-      width: 118%;
+      width: 113%;
     }
 
 
@@ -379,11 +412,11 @@ width: 115%;
 
   @media screen and (min-width: 893px) and (max-width: 909px) { 
     .headWidth{
-      width: 102%;
+      width: 91%;
     }
 
     .subHead{
-      width: 118%;
+      width: 110%;
     }
 
 
@@ -391,11 +424,11 @@ width: 115%;
 
   @media screen and (min-width: 910px) and (max-width: 919px) { 
     .headWidth{
-      width: 100%;
+      width: 90%;
     }
 
     .subHead{
-      width: 118%;
+      width: 109%;
     }
 
 
@@ -404,11 +437,11 @@ width: 115%;
 
   @media screen and (min-width: 920px) and (max-width: 926px) { 
     .headWidth{
-      width: 100%;
+      width: 88%;
     }
 
     .subHead{
-      width: 118%;
+      width: 100%;
     }
 
 
@@ -416,11 +449,11 @@ width: 115%;
   
   @media screen and (min-width: 927px) and (max-width: 946px) { 
     .headWidth{
-      width: 98%;
+      width: 82%;
     }
 
     .subHead{
-      width: 118%;
+      width: 100%;
     }
 
 
@@ -436,7 +469,7 @@ width: 115%;
     }
 
     .subHead{
-      width: 115%;
+      width: 100%;
     }
 
 

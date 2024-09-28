@@ -1,3 +1,5 @@
+"use client"
+
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 // import { BentoGridThirdDemo } from "@/components/ui/BentoGridThirdDemo";
@@ -37,9 +39,13 @@ import StackAnim from '@/components/ui/StackAnim'
 import { ProductShowcase } from "@/components/ui/ProductShowcase";
 import Chatbot from '@/app/chatbot/page'
 import Loader from '@/components/ui/Loader'
-import { Suspense } from "react";
+import { useEffect,Suspense } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    // Set the zoom level of the body to 90%
+    document.body.style.zoom = '0.9';
+  }, []);
   return (
     <>
     <Suspense fallback = {<Loader />}>
