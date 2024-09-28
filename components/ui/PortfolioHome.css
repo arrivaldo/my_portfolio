@@ -205,8 +205,36 @@
   }
 
 
+  @media screen and (min-width: 501px) and (max-width: 515px) {
+  
+    .p-midHome{
+      padding: 5% 7%;
+    }
+  
+   .padding-home {
+    padding: 0 7%;
+    margin-top: 10%;
+   } 
+  
+   .mainText {
+    width: 95%;
+   }
+  
+   .home-video {
+    width: 80%;
+  }
+  .headWidth {
+    width: 91%;
+  }
+  .subHead{
+    width: 104%;
+  }
+  
+  }
 
-  @media screen and (min-width: 501px) and (max-width: 572px) { 
+
+
+  @media screen and (min-width: 516px) and (max-width: 572px) { 
   
     .p-midHome{
       padding: 5% 6%;
