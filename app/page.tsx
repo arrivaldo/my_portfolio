@@ -52,7 +52,7 @@ export default function Home() {
     <Suspense fallback = {<Loader />}>
     
     <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="absolute left-0 top-0 z-[1] h-screen w-screen gradient-bg"></div>
+      <div className="absolute left-0 top-0 z-[1] h-screen w-[115vw] gradient-bg"></div>
 
       <div style={{}} className="max-w-5xl w-full z-20 relative b-border">
         <FloatingNav
