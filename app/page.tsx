@@ -36,9 +36,14 @@ import TagScroller from '@/components/ui/TagScroller'
 import StackAnim from '@/components/ui/StackAnim'
 import { ProductShowcase } from "@/components/ui/ProductShowcase";
 import Chatbot from '@/app/chatbot/page'
+import Loader from '@/components/ui/Loader'
+import { Suspense } from "react";
 
 export default function Home() {
   return (
+    <>
+    <Suspense fallback = {<Loader />}>
+    
     <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="absolute left-0 top-0 z-[1] h-screen w-screen gradient-bg"></div>
 
@@ -66,8 +71,8 @@ export default function Home() {
 
         {/* <ProductShowcase /> */}
 
-        <MainProjects />
-        {/* <FeaturedProjects4 /> */}
+        {/* <MainProjects /> */}
+        <FeaturedProjects4 />
 
 
         {/* <About4 /> */}
@@ -128,5 +133,8 @@ export default function Home() {
         {/* </TracingBeam> */}
       </div>
     </main>
+    </Suspense>
+    </>
+
   );
 }

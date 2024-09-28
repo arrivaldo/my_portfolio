@@ -80,7 +80,7 @@ const About6 = () => {
                       <h3 className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.8rem]">
                         April 5, 2024
                       </h3>
-                      <h2 className="text-xl tinyMobile:text-[1rem] mobile:text-[1rem] mobileBig:text-[1.05rem] font-bold py-2">
+                      <h2 className="text-xl post-title mobile:text-[1rem] mobileBig:text-[1.05rem] font-bold py-2">
                         Crafting a design system for a multiplanetary
                       </h2>
                       <ul className="text-lg tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] flex gap-4 pb-2 ">
@@ -115,7 +115,7 @@ const About6 = () => {
                       <h3 className="text-lg tinyMobile:text-[0.7rem] mobile:text-[0.7rem] mobileBig:text-[0.8rem]">
                         April 5, 2024
                       </h3>
-                      <h2 className="text-xl tinyMobile:text-[1rem] mobile:text-[1rem] mobileBig:text-[1.05rem] font-bold py-2">
+                      <h2 className="text-xl post-title mobile:text-[1rem] mobileBig:text-[1.05rem] font-bold py-2">
                         Crafting a design system for a multiplanetary
                       </h2>
                       <ul className="text-lg tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] flex gap-4 pb-2 ">

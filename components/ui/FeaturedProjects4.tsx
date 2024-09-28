@@ -95,17 +95,16 @@ const FeaturedProjects4: React.FC = () => {
       <div key={index} className="projectMain-container">
         <div className={`relative project ${projectClass}`}>
           <div className="project-content">
-            <div className={`project-label ${titleClass}`}>Featured Project</div>
+            <div className={`project-label ${titleClass}`}>
+              Featured Project
+            </div>
             <h4 className={`project-title ${titleClass}`}>{project.title}</h4>
             <div className="group relative project-details">
               <p
                 style={{
-                  background: "rgb(0 0 69)",
-                  filter: "brightness(1.3)",
-                  color: "rgb(141, 147, 160)",
-                  border: "1px solid #c1c1c194",
+               
                 }}
-                className={` ${parrafClass} mediaPadding`}
+                className={` ${parrafClass} mediaPadding featured-parraf`}
               >
                 {project.description2}
               </p>
@@ -115,8 +114,8 @@ const FeaturedProjects4: React.FC = () => {
             </div>
 
             <ul
-              style={{ fontSize: "15px", color: "#aaa" }}
-              className={`flex ${itemsClass} marginProject`}
+              style={{  }}
+              className={`flex ${itemsClass} marginProject tinyMobile:text-[0.7rem] `}
             >
               {project.items.map((item, itemIndex) => (
                 <li
@@ -132,14 +131,14 @@ const FeaturedProjects4: React.FC = () => {
           </div>
 
           <div className="project-img">
-          <Image
+            <Image
               src={project.cover}
               fill
               alt={project.title}
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: "cover" }}
               sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
               priority
-           />
+            />
           </div>
         </div>
       </div>
@@ -148,26 +147,30 @@ const FeaturedProjects4: React.FC = () => {
 
   return (
     <div className="p-featured">
-      <h1
-        className="m-title-p text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]"
+     <h1
+        className="block featured-p-title tinyMobile:hidden m-title-p text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]"
         style={{
-          width: "100%",
-          color: "#fff",
-          display: "flex",
-          justifyContent: "flex-start",
-          fontWeight: "600",
+         
         }}
       >
         Checkout some of my personal projects
       </h1>
+      <h1
+        className=" featured-p-title2 tinyMobile:block m-title-p text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]"
+        style={{
+      
+        }}
+      >
+        Checkout my personal projects
+      </h1>
 
-      <div className="flex flex-col gap-8 tinyMobile:gap-16 mobile:gap-16 mobileBig:gap-16 tinyTablet:gap-16 items-start mt-3">
+      <div className="flex flex-col gap-8 tinyMobile:gap-28 mobile:gap-28 mobileBig:gap-28 tinyTablet:gap-28 tablet:gap-20 items-start mt-3">
         {projects}
       </div>
 
-      <div className="flex flex-col mt-12 justify-center items-center">
-        <h2 className="text-2xl tinyMobile:text-[1.2rem] mobile:text-[1.2rem] mobileBig:text-[1.2rem] mb-4">
-          View all projects
+      <div className="flex flex-col mt-12 justify-center items-center all-view">
+      <h2 className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] tiny-tablet-view mb-4">
+      View all projects
         </h2>
         <svg
           width="30"
