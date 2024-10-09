@@ -192,7 +192,9 @@
   }
   
 
-
+.padding-chat-input {
+  padding: 0 1rem;
+}
   
 @media screen and (min-width: 320px) and (max-width: 399px) {
  
@@ -200,6 +202,10 @@
     right: 1rem;
     width: 20rem;
   }
+  
+.padding-chat-input {
+  padding: 0 0.5rem;
+}
 }
 
 
@@ -209,6 +215,9 @@
   .chat-window {
     right: 1rem;
     width: 20rem;
+  }
+  .padding-chat-input {
+    padding: 0 0.5rem;
   }
 }
 
