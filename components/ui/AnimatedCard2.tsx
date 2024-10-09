@@ -9,237 +9,213 @@ import "./AnimatedCard.css";
 function CardDemo() {
   return (
     <Card>
-      <CardSkeletonContainer>
-        <Skeleton />
-      </CardSkeletonContainer>
-      <CardTitle>My Tech Stack</CardTitle>
-      <CardDescription>
+    <CardSkeletonContainer>
+      <Skeleton />
+    </CardSkeletonContainer>
+    <CardTitle>My Tech Stack</CardTitle>
+    <CardDescription>
       Feel free to chat with me for my complete technology stack information.
-      </CardDescription>
-    </Card>
-  );
+    </CardDescription>
+  </Card>
+);
 }
 
 const Skeleton = () => {
-  const scale = [1, 1.1, 1];
-  const transform = ["translateY(0px)", "translateY(-4px)", "translateY(0px)"];
- 
-
-  useEffect(() => {
-    const sequence = [
-      [
-        ".circle-1",
-        {
-          scale,
-          transform,
-        },
-        { duration: 0.8 },
-      ],
-      [
-        ".circle-2",
-        {
-          scale,
-          transform,
-        },
-        { duration: 0.8 },
-      ],
-      [
-        ".circle-3",
-        {
-          scale,
-          transform,
-        },
-        { duration: 0.8 },
-      ],
-      [
-        ".circle-4",
-        {
-          scale,
-          transform,
-        },
-        { duration: 0.8 },
-      ],
-      [
-        ".circle-5",
-        {
-          scale,
-          transform,
-        },
-        { duration: 0.8 },
-      ],
-    ];
-    // @ts-ignore
-    animate(sequence, {
-      iterations: Infinity,
-      repeatDelay: 1,
-    
-    });
-  }, []);
-  return (
-    <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
-      <div className="flex flex-row flex-shrink-0 justify-center items-center gap-4">
-        <Container className="h-12 w-12 circle-1">
-          <ClaudeLogo className="h-8 w-8 " />
-        </Container>
-        <Container className="h-16 w-16 circle-2">
-          <LogoTypescript className="h-10 w-10 dark:text-white" />
-        </Container>
-        <Container className="circle-3">
-          <OpenAILogo className="h-20 w-20 dark:text-white" />
-        </Container>
-        <Container className="h-16 w-16 circle-4">
-          <MetaIconOutline className="h-10 w-10 " />
-        </Container>
-        <Container className="h-12 w-12 circle-5">
-          <GeminiLogo className="h-8 w-8 " />
-        </Container>
-      </div>
-
-      <div className="h-40 w-[100%] absolute top-8 m-auto animate-move">
-        <div className="w-10 h-32 top-1/2 -translate-y-1/2 absolute -left-10">
-          <Sparkles />
-        </div>
-      </div>
-    </div>
-  );
+const animationProps = {
+  scale: [1, 1.1, 1],
+  transform: ["translateY(0px)", "translateY(-4px)", "translateY(0px)"],
 };
-const Sparkles = () => {
-  const randomMove = () => Math.random() * 2 - 1;
-  const randomOpacity = () => Math.random();
-  const random = () => Math.random();
-  return (
-    <div className="absolute inset-0">
-      {[...Array(12)].map((_, i) => (
-        <motion.span
-          key={`star-${i}`}
-          animate={{
-            top: `calc(${random() * 100}% + ${randomMove()}px)`,
-            left: `calc(${random() * 100}% + ${randomMove()}px)`,
-            opacity: randomOpacity(),
-            scale: [1, 1.2, 0],
-          }}
-          transition={{
-            duration: random() * 2 + 4,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-          style={{
-            position: "absolute",
-            top: `${random() * 100}%`,
-            left: `${random() * 100}%`,
-            width: `2px`,
-            height: `2px`,
-            borderRadius: "50%",
-            zIndex: 1,
-          }}
-          className="inline-block bg-white"
-        ></motion.span>
-      ))}
+
+useEffect(() => {
+  const sequence = [
+    ".circle-1",
+    ".circle-2",
+    ".circle-3",
+    ".circle-4",
+    ".circle-5",
+  ];
+
+  const runAnimation = async () => {
+    for (const target of sequence) {
+      // Use the same animation properties for all targets
+      await animate(target, animationProps);
+      // Add a delay before the next animation
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+    }
+    // Call runAnimation again to repeat the sequence
+    runAnimation();
+  };
+
+  runAnimation(); // Start the animation loop
+}, [animationProps]);
+
+return (
+  <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
+    <div className="flex flex-row flex-shrink-0 justify-center items-center gap-4">
+      <Container className="h-12 w-12 circle-1">
+        <ClaudeLogo className="h-8 w-8 " />
+      </Container>
+      <Container className="h-16 w-16 circle-2">
+        <LogoTypescript className="h-10 w-10 dark:text-white" />
+      </Container>
+      <Container className="circle-3">
+        <OpenAILogo className="h-20 w-20 dark:text-white" />
+      </Container>
+      <Container className="h-16 w-16 circle-4">
+        <MetaIconOutline className="h-10 w-10 " />
+      </Container>
+      <Container className="h-12 w-12 circle-5">
+        <GeminiLogo className="h-8 w-8 " />
+      </Container>
     </div>
-  );
+
+    <div className="h-40 w-[100%] absolute top-8 m-auto animate-move">
+      <div className="w-10 h-32 top-1/2 -translate-y-1/2 absolute -left-10">
+        <Sparkles />
+      </div>
+    </div>
+  </div>
+);
+};
+
+const Sparkles = () => {
+const randomMove = () => Math.random() * 2 - 1;
+const randomOpacity = () => Math.random();
+const random = () => Math.random();
+return (
+  <div className="absolute inset-0">
+    {[...Array(12)].map((_, i) => (
+      <motion.span
+        key={`star-${i}`}
+        animate={{
+          top: `calc(${random() * 100}% + ${randomMove()}px)`,
+          left: `calc(${random() * 100}% + ${randomMove()}px)`,
+          opacity: randomOpacity(),
+          scale: [1, 1.2, 0],
+        }}
+        transition={{
+          duration: random() * 2 + 4,
+          repeat: Infinity,
+          ease: "linear",
+        }}
+        style={{
+          position: "absolute",
+          top: `${random() * 100}%`,
+          left: `${random() * 100}%`,
+          width: `2px`,
+          height: `2px`,
+          borderRadius: "50%",
+          zIndex: 1,
+        }}
+        className="inline-block bg-white"
+      ></motion.span>
+    ))}
+  </div>
+);
 };
 
 export const Card = ({
-  className,
-  children,
+className,
+children,
 }: {
-  className?: string;
-  children: React.ReactNode;
+className?: string;
+children: React.ReactNode;
 }) => {
-  return (
-    <div
-      className={cn(
-        "tech-width w-full mx-auto h-[50%]  rounded-xl border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-black shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
-        className
-      )}
-    >
-      {children}
-    </div>
-  );
+return (
+  <div
+    className={cn(
+      "tech-width w-full mx-auto h-[50%] rounded-xl border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-black shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
+      className
+    )}
+  >
+    {children}
+  </div>
+);
 };
 
 export const CardTitle = ({
-  children,
-  className,
+children,
+className,
 }: {
-  children: React.ReactNode;
-  className?: string;
+children: React.ReactNode;
+className?: string;
 }) => {
-  return (
-    <h3
-    style={{marginTop: '10%'}}
-      className={cn(
-        "text-xl tinyMobile:text-[1rem] mobile:text-[1rem] mobileBig:text-[1.05rem] font-semibold text-[#84cdeb] dark:text-white py-2",
-        className
-      )}
-    >
-      {children}
-    </h3>
-  );
+return (
+  <h3
+    style={{ marginTop: '10%' }}
+    className={cn(
+      "text-xl tinyMobile:text-[1rem] mobile:text-[1rem] mobileBig:text-[1.05rem] font-semibold text-[#84cdeb] dark:text-white py-2",
+      className
+    )}
+  >
+    {children}
+  </h3>
+);
 };
 
 export const CardDescription = ({
-  children,
-  className,
+children,
+className,
 }: {
-  children: React.ReactNode;
-  className?: string;
+children: React.ReactNode;
+className?: string;
 }) => {
-  return (
-    <p
-      className={cn(
-        "text-[1.125rem] tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] font-normal text-white max-w-sm",
-        className
-      )}
-    >
-      {children}
-    </p>
-  );
+return (
+  <p
+    className={cn(
+      "text-[1.125rem] tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] font-normal text-white max-w-sm",
+      className
+    )}
+  >
+    {children}
+  </p>
+);
 };
 
 export const CardSkeletonContainer = ({
-  className,
-  children,
-  showGradient = true,
+className,
+children,
+showGradient = true,
 }: {
-  className?: string;
-  children: React.ReactNode;
-  showGradient?: boolean;
+className?: string;
+children: React.ReactNode;
+showGradient?: boolean;
 }) => {
-  return (
-    <div
-      className={cn(
-        "h-[8rem] md:h-[20rem] rounded-xl z-40",
-        className,
-        showGradient &&
-          " [mask-image:radial-gradient(50%_50%_at_50%_50%,white_0%,transparent_100%)]"
-      )}
-    >
-      {children}
-    </div>
-  );
+return (
+  <div
+    className={cn(
+      "h-[8rem] md:h-[20rem] rounded-xl z-40",
+      className,
+      showGradient &&
+        " [mask-image:radial-gradient(50%_50%_at_50%_50%,white_0%,transparent_100%)]"
+    )}
+  >
+    {children}
+  </div>
+);
 };
 
 const Container = ({
-  className,
-  children,
+className,
+children,
 }: {
-  className?: string;
-  children: React.ReactNode;
+className?: string;
+children: React.ReactNode;
 }) => {
-  return (
-    <div
-      className={cn(
-        `h-16 w-16 rounded-full flex items-center justify-center bg-[rgba(248,248,248,0.01)]
-    shadow-[0px_0px_8px_0px_rgba(248,248,248,0.25)_inset,0px_32px_24px_-16px_rgba(0,0,0,0.40)]
-    `,
-        className
-      )}
-    >
-      {children}
-    </div>
-  );
+return (
+  <div
+    className={cn(
+      `h-16 w-16 rounded-full flex items-center justify-center bg-[rgba(248,248,248,0.01)]
+  shadow-[0px_0px_8px_0px_rgba(248,248,248,0.25)_inset,0px_32px_24px_-16px_rgba(0,0,0,0.40)]
+  `,
+      className
+    )}
+  >
+    {children}
+  </div>
+);
 };
+
 
 export const ClaudeLogo = ({ className }: { className?: string }) => {
   return (
