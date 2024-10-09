@@ -312,7 +312,47 @@
 
 
 
-  @media screen and (min-width: 516px) and (max-width: 572px) { 
+  @media screen and (min-width: 516px) and (max-width: 530px) { 
+  
+    .p-midHome{
+      padding: 5% 6%;
+    }
+  
+   .padding-home {
+    padding: 0 6%;
+    margin-top: 5%;
+  
+   } 
+  
+   .mainText {
+    width: 100%;
+  }
+  
+  
+  
+  .subHead{
+    width: 93%;
+  }
+  
+  
+  .home-video {
+    width: 80%;
+  }
+  .headWidth {
+    width: 81%;
+  }
+  .home-video {
+    width: 100%;
+    scale: 1.2;
+    margin-top: 7%;
+  }
+  .m-button {
+    margin-top: 4%;
+  }
+  
+  }
+  
+  @media screen and (min-width: 531px) and (max-width: 572px) { 
   
     .p-midHome{
       padding: 5% 6%;
