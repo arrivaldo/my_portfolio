@@ -165,15 +165,15 @@ const Link = ({ heading, imgSrc, subheading, href, items }) => {
           </div>
         </div>
         <motion.span
-          className="relative z-10 block text-xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50"
+          className="relative z-10 block text-xl tinyMobile:text-[1rem] mobile:text-[1rem] mobileBig:text-[1.05rem] font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50"
           style={{ color: "#e3e3e3" }}
         >
           {heading}
         </motion.span>
-        <span style={{ filter: "brightness(1.3)", color: "#8d93a0" }} className="relative z-10 mt-2 block text-base text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50">
+        <span style={{ filter: "brightness(1.3)", color: "#8d93a0" }} className="relative z-10 mt-2 block text-base tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50">
           {subheading}
         </span>
-        <span style={{ marginTop: '7%', filter: "brightness(1.3)", color: "#8d93a0" }} className="relative z-10 mt-2 block text-base text-neutral-400 transition-colors duration-500 group-hover:text-neutral-50">
+        <span style={{ marginTop: '7%', filter: "brightness(1.3)", color: "#8d93a0" }} className="relative z-10 mt-2 block text-base tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] text-neutral-400 transition-colors duration-500 group-hover:text-neutral-50">
           {items}
         </span>
       </div>

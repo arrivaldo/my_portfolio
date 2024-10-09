@@ -21,14 +21,14 @@
   
   .headWidth {
     /* width: 97%; */
-    width: 132%;
+    width: 135%;
   }
   
   .m-button {
     margin-top: 7%;
   }
   .subHead{
-    width: 135%;
+    width: 138%;
   }
 
   @media screen and (max-width: 319px) {
@@ -92,10 +92,10 @@
     font-size: 5rem
   }
   .headWidth {
-    width: 90%;
+    width: 93%;
   }
   .subHead{
-    width: 96%;
+    width: 101%;
   }
   .m-button{
     margin-top: 5%;
@@ -123,10 +123,10 @@
       margin-top: 12%;
     }
     .subHead{
-      width: 90%;
+      width: 95%;
     }
     .headWidth {
-      width: 91%;
+      width: 96%;
     }
     
     .m-button{
@@ -155,11 +155,11 @@
     margin-top: 12%;  }
   
   .headWidth {
-    width: 83%;
+    width: 84%;
   }
 
   .subHead{
-    width: 92%;
+    width: 93%;
   }
   .m-button{
     margin-top: 5%;
@@ -188,10 +188,10 @@
     width: 80%;
   }
   .headWidth {
-    width: 80%;
+    width: 85%;
   }
   .subHead{
-    width: 89%;
+    width: 95%;
   }
   .home-video {
     width: 100%;
@@ -331,7 +331,7 @@
   
   
   .subHead{
-    width: 87%;
+    width: 91%;
   }
   
   
@@ -339,7 +339,7 @@
     width: 80%;
   }
   .headWidth {
-    width: 76%;
+    width: 78%;
   }
   .home-video {
     width: 100%;
@@ -379,11 +379,11 @@
   }
   
   .headWidth{
-    width: 67%;
+    width: 70%;
   }
   
   .subHead{
-    width: 79%;
+    width: 81%;
   }
   .home-video {
     width: 100%;
@@ -453,11 +453,11 @@
   }
   
   .headWidth{
-    width: 73%;
+    width: 76%;
   }
   
   .subHead{
-    width: 78%;
+    width: 84%;
   }
   
   .home-video {
@@ -484,14 +484,14 @@
    } 
 
    .headWidth{
-    width: 108%;
+    width: 112%;
   }
    
 .mainText {
   width: 70%;
 }
 .subHead{
-  width: 132%;
+  width: 138%;
 }
 .home-video {
   width: 100%;
@@ -515,14 +515,14 @@
  } 
 
  .headWidth{
-  width: 108%;
+  width: 112%;
 }
  
 .mainText {
 width: 70%;
 }
 .subHead{
-width: 132%;
+width: 138%;
 }
 .home-video {
   width: 100%;
@@ -550,11 +550,11 @@ width: 132%;
     width: 68%;
   }
   .subHead{
-    width: 132%;
+    width: 138%;
   }
 
   .headWidth{
-    width: 108%;
+    width: 112%;
   }
   .home-video {
     width: 100%;
@@ -574,11 +574,11 @@ width: 132%;
   @media screen and (min-width: 820px) and (max-width: 826px) { 
 
     .headWidth{
-      width: 108%;
+      width: 112%;
     }
 
     .subHead{
-      width: 132%;
+      width: 138%;
     }
 
     .home-video {
@@ -595,11 +595,11 @@ width: 132%;
     /* CSS rules for devices with widths between 321 pixels and 768 pixels */
     
     .headWidth{
-      width: 108%;
+      width: 112%;
     }
 
     .subHead{
-      width: 132%;
+      width: 138%;
     }
 
     .home-video {
@@ -616,11 +616,11 @@ width: 132%;
 
   @media screen and (min-width: 893px) and (max-width: 909px) { 
     .headWidth{
-      width: 108%;
+      width: 112%;
     }
 
     .subHead{
-      width: 132%;
+      width: 138%;
     }
 
 
@@ -628,11 +628,11 @@ width: 132%;
 
   @media screen and (min-width: 910px) and (max-width: 919px) { 
     .headWidth{
-      width: 108%;
+      width: 112%;
     }
 
     .subHead{
-      width: 132%;
+      width: 138%;
     }
 
 
@@ -641,11 +641,11 @@ width: 132%;
 
   @media screen and (min-width: 920px) and (max-width: 926px) { 
     .headWidth{
-      width: 108%;
+      width: 112%;
     }
 
     .subHead{
-      width: 132%;
+      width: 138%;
     }
 
 
@@ -653,11 +653,11 @@ width: 132%;
   
   @media screen and (min-width: 927px) and (max-width: 946px) { 
     .headWidth{
-      width: 108%;
+      width: 112%;
     }
 
     .subHead{
-      width: 132%;
+      width: 138%;
     }
 
 
@@ -669,11 +669,11 @@ width: 132%;
     /* CSS rules for devices with widths between 321 pixels and 768 pixels */
     
     .headWidth{
-      width: 130%;
+      width: 135%;
     }
 
     .subHead{
-      width: 132%;
+      width: 138%;
     }
 
 
@@ -686,11 +686,11 @@ width: 132%;
     /* CSS rules for devices with widths between 321 pixels and 768 pixels */
     
     .headWidth{
-      width: 130%;
+      width: 135%;
     }
 
     .subHead{
-      width: 132%;
+      width: 138%;
     }
 
 

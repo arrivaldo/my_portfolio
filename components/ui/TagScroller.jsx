@@ -45,7 +45,7 @@ const TagScroller = () => {
         }}
       >
         {" "}
-        Awesome clients that weve helped
+        Awesome clients that I&apos;ve helped
       </h1>
 
       <div className="tag-scrollers">

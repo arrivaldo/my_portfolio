@@ -414,8 +414,11 @@
            <h2 className="text-center text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] font-bold text-white dark:text-white">
              Transforming ideas into engineering global solutions
            </h2>
-           <p className="text-center tinyMobile:text-[0.7rem] mobile:text-[0.7rem]  mobileBig:text-[0.9rem] text-[1.125rem] md:text-lg font-normal text-white dark:text-neutral-200 max-w-md mt-2 mx-auto">
+           <p className="text-center tinyMobile:hidden tinyMobile:text-[0.7rem] mobile:hidden mobile:text-[0.7rem] mobileBig:hidden  mobileBig:text-[0.9rem] text-[1.125rem] md:text-lg font-normal text-white dark:text-neutral-200 max-w-md mt-2 mx-auto">
            Delivering end-to-end software engineering results.
+                     </p>
+                     <p className="hidden text-center tinyMobile:block tinyMobile:text-[0.7rem] mobile:block mobile:text-[0.7rem] mobileBig:block  mobileBig:text-[0.9rem] text-[1.125rem] md:text-lg font-normal text-white dark:text-neutral-200 max-w-md mt-2 mx-auto">
+           End-to-end software engineering results.
                      </p>
          </motion.div>
          <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none z-40" />

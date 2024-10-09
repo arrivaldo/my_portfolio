@@ -8,7 +8,7 @@ const Loader2 = () => {
     // Add loaded class after a timeout to trigger slide-down animation
     const timer = setTimeout(() => {
       preloader.classList.add("loaded");
-    }, 1000); // Adjust this delay according to your requirements
+    }, 1700); // Adjust this delay according to your requirements
 
     return () => clearTimeout(timer);
   }, []);
