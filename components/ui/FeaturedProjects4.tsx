@@ -106,6 +106,14 @@ const FeaturedProjects4: React.FC = () => {
   const isMobile = useMediaQuery("(min-width: 320px) and (max-width: 500px)");
   const isTablet = useMediaQuery("(min-width: 501px) and (max-width: 715px)");
 
+  const spotlightRef = useRef(null);
+
+  useEffect(() => {
+    if (spotlightRef.current) {
+      new Spotlight(spotlightRef.current);
+    }
+  }, []);
+
   const projects = portfolio.map((project, index) => {
     const isEven = index % 2 === 0;
     let projectClass = isEven ? "flex-row" : "flex-row-reverse";
@@ -121,13 +129,7 @@ const FeaturedProjects4: React.FC = () => {
       itemsClass = "justify-start0";
     }
 
-    const spotlightRef = useRef(null);
-
-    useEffect(() => {
-      if (spotlightRef.current) {
-        new Spotlight(spotlightRef.current);
-      }
-    }, []);
+  
 
     return (
       <div key={index} className="projectMain-container">

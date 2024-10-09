@@ -66,7 +66,7 @@ const Contact2 = () => {
         style={{ color: "rgb(193 194 211" }}
         className="relative tinyMobile:hidden z-10 mt-4 block text-[1.125rem] tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] transition-colors duration-500 group-hover:text-neutral-50"
       >
-Looking forward to connect! Feel free to drop me an email or send a quick message. Let's team up!
+Looking forward to connect! Feel free to drop me an email or send a quick message. Let&apos;s team up!
 </p> 
 
       <form className="my-8" ref={refForm} onSubmit={sendEmail}>
