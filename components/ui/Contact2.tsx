@@ -5,13 +5,12 @@ import { Input } from "./input";
 import { cn } from "@/lib/utils";
 import {
   IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
+  IconBrandWhatsapp,
+  IconBrandLinkedin,
 } from "@tabler/icons-react";
 import emailjs from "@emailjs/browser";
-import confetti from 'canvas-confetti';
-import './Contact2.css';
-
+import confetti from "canvas-confetti";
+import "./Contact2.css";
 
 const Contact2 = () => {
   const [firstName, setFirstName] = useState("");
@@ -47,7 +46,7 @@ const Contact2 = () => {
           setSubject("");
           setMessage("");
           setCompany("");
-          },
+        },
         (error) => {
           console.log("Message failed, Please try again :)", error.text);
         }
@@ -60,14 +59,15 @@ const Contact2 = () => {
       style={{ maxWidth: "87%", marginTop: "12%" }}
       className="max-w-md contact-class w-full mx-auto rounded-none md:rounded-2xl md:p-8 bg-black dark:bg-black"
     >
-      <h2             className="text-xl font-bold tinyScreen:text-[0.9rem] tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobile:w-[105%] mobileBig:text-[1.05rem]"
->
+      <h2 className="text-xl font-bold tinyScreen:text-[0.9rem] tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobile:w-[105%] mobileBig:text-[1.05rem]">
         Lets collaborate!
       </h2>
-      <p style={{color: 'rgb(193 194 211'}}  className="relative z-10 mt-4 block text-base tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] transition-colors duration-500 group-hover:text-neutral-50">
-        Login to aceternity if you can because we dont have a login flow
-        yet
-      </p>
+      <p
+        style={{ color: "rgb(193 194 211" }}
+        className="relative tinyMobile:hidden z-10 mt-4 block text-[1.125rem] tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem] transition-colors duration-500 group-hover:text-neutral-50"
+      >
+Looking forward to connect! Feel free to drop me an email or send a quick message. Let's team up!
+</p> 
 
       <form className="my-8" ref={refForm} onSubmit={sendEmail}>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
@@ -83,7 +83,7 @@ const Contact2 = () => {
               required
             />
           </LabelInputContainer>
-          <LabelInputContainer>
+          {/* <LabelInputContainer>
             <Label htmlFor="lastname">Email Subject</Label>
             <Input
               id="lastname"
@@ -94,7 +94,7 @@ const Contact2 = () => {
               onChange={(e) => setSubject(e.target.value)}
               required
             />
-          </LabelInputContainer>
+          </LabelInputContainer> */}
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
@@ -122,7 +122,7 @@ const Contact2 = () => {
         <LabelInputContainer className="mb-8">
           <Label htmlFor="message">Message</Label>
           <textarea
-            style={{ }}
+            style={{}}
             id="message"
             rows={3}
             name="message"
@@ -146,76 +146,76 @@ const Contact2 = () => {
           Submit &rarr;
           <BottomGradient />
         </button>
-        </form>
+      </form>
 
+      <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
 
-        <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
-
-        <div className="flex items-center justify-center gap-2 space-y-4">
-
-        <a className="flex-1"
-                  href="https://github.com/arrivaldo" // Replace with your GitHub URL
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-        <button
+      <div className="flex items-center justify-center gap-2 space-y-4">
+        <a
+          className="flex-1"
+          href="https://api.whatsapp.com/send?phone=+5540779049&text=%F0%9F%91%8B%20Hello%20there!%20Thank%20you%20for%20visiting%20my%20portfolio!%20If%20you%20have%20any%20questions,%20feedback,%20or%20just%20want%20to%20connect,%20feel%20free%20to%20drop%20me%20a%20message.%20I%E2%80%99m%20excited%20to%20hear%20from%20you!" // Replace with your GitHub URL
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
             style={{ background: "#27272a" }}
             className=" relative group/btn flex space-x-2 items-center justify-start px-4 
             w-full text-white rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 
             dark:shadow-[0px_0px_1px_1px_var(--neutral-800)] tinyScreen:text-[0.7rem] tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem]"
             type="submit"
           >
-          <IconBrandGithub className="h-4 w-4 text-white dark:text-neutral-300" />
-          <span className="text-white dark:text-neutral-300 text-md">
-              Github
+            <IconBrandWhatsapp className="h-4 w-4 text-white dark:text-neutral-300" />
+            <span className="text-white dark:text-neutral-300 text-md">
+              WhatsApp
             </span>
             <BottomGradient />
           </button>
-          </a>
+        </a>
 
-          <a className="flex-1" style={{margin: '0'}}
-                  href="https://www.linkedin.com/in/erickbarcena7/" // Replace with your LinkedIn URL
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+        <a
+          className="flex-1"
+          style={{ margin: "0" }}
+          href="https://www.linkedin.com/in/erickbarcena7/" // Replace with your LinkedIn URL
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button
-            style={{ background: "#27272a", margin:'0' }}
+            style={{ background: "#27272a", margin: "0" }}
             className=" relative group/btn flex space-x-2 items-center justify-start px-4 
             w-full text-white rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 
             dark:shadow-[0px_0px_1px_1px_var(--neutral-800)] tinyScreen:text-[0.7rem] tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem]"
             type="submit"
           >
-            <IconBrandGoogle className="h-4 w-4 text-white dark:text-neutral-300" />
+            <IconBrandLinkedin className="h-4 w-4 text-white dark:text-neutral-300" />
             <span className="text-white dark:text-neutral-300 text-md">
               LinkedIn
             </span>
             <BottomGradient />
           </button>
-          </a>
+        </a>
 
-
-          <a className="flex-1" style={{margin: '0'}}
-                  href="https://x.com/ErickBarcena" // Replace with your GitHub URL
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-
+        <a
+          className="flex-1"
+          style={{ margin: "0" }}
+          href="https://github.com/arrivaldo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button
-            style={{ background: "#27272a", margin: '0'}}
+            style={{ background: "#27272a", margin: "0" }}
             className=" relative group/btn flex space-x-2 items-center justify-start px-4 
             w-full text-white rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 
             dark:shadow-[0px_0px_1px_1px_var(--neutral-800)] tinyScreen:text-[0.7rem] tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem]"
             type="submit"
           >
-            <IconBrandOnlyfans className="h-4 w-4 text-white dark:text-neutral-300" />
+            <IconBrandGithub className="h-4 w-4 text-white dark:text-neutral-300" />
             <span className="text-white dark:text-neutral-300 text-md">
-              Twitter
+              Github
             </span>
             <BottomGradient />
           </button>
-          </a>
-
-        </div>
+        </a>
+      </div>
     </div>
   );
 };
@@ -237,14 +237,13 @@ const LabelInputContainer = ({
   children: React.ReactNode;
   className?: string;
   isFirstChild?: boolean; // Optional prop, defaults to false
-
 }) => {
   return (
     <div
       style={{
         color: "#fff",
         borderBottom: "1px solid #fff",
-        marginTop: isFirstChild ? '0%' : '2%', // Apply margin conditionally
+        marginTop: isFirstChild ? "0%" : "2%", // Apply margin conditionally
       }}
       className={cn("flex flex-col space-y-2 w-full text-white", className)}
     >

@@ -14,7 +14,7 @@ const Jobs = () => {
       company: "Rules Cube",
       position: "Consultant",
       startDate: "2021",
-      endDate: "Present"
+      endDate: "2024"
     },
     {
       image: "/images/global.png",
@@ -37,7 +37,7 @@ const Jobs = () => {
       alt: "HSBC image",
       company: "HSBC",
       position: "IT Consultant",
-      startDate: "2018",
+      startDate: "2019",
       endDate: "2019"
     }
   ];
@@ -54,9 +54,9 @@ const Jobs = () => {
     <div className="w-full p-4 rounded-lg shadow sm:p-8">
       <div className="flex items-center justify-between mb-4">
         <h5 className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] font-bold leading-none">
-          Latest Customers
+          Latest Experience
         </h5>
-        <svg
+        {/* <svg
           viewBox="0 0 24 24"
           fill="none"
           strokeWidth="1.5"
@@ -73,7 +73,7 @@ const Jobs = () => {
             d="M3 14.25h6.249c.484 0 .952-.002 1.316.319l.777.682a.996.996 0 0 0 1.316 0l.777-.682c.364-.32.832-.319 1.316-.319H21M8.75 6.5V4.75a2 2 0 0 1 2-2h2.5a2 2 0 0 1 2 2V6.5"
             className="stroke-zinc-400 dark:stroke-zinc-500"
           ></path>
-        </svg>
+        </svg> */}
       </div>
       <div className="flow-root">
         <ul role="list" className="divide-y">

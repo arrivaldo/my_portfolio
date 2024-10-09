@@ -15,36 +15,38 @@ const Testimonials4 = () => {
       img: "https://images.unsplash.com/photo-1627161683077-e34782c24d81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=703&q=80",
       name: "Sam Gharnagh",
       title: "Vice President",
-      info: "Erick performed QA activities for an upgrade project of the Pega platform with smooth successful result. He took initiative to quickly understand the client application, create test cases and execute them.",
+      info: "Erick performed QA activities for an upgrade project of the Pega platform with smooth successful result. He took initiative to quickly understand the client application, creating test cases and executing them.",
     },
     {
       id: 2,
-      img: "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
-      name: "Darwin Batres",
-      title: "Lead Developer",
-      info: "Erick has been doing a great job, he got direct exposure to the client and was able to interact with them. The client liked his work and he was able to help them directly whenever they needed it. i.e creating data, providing demos, knowledge transfer.",
-    },
-    {
-      id: 3,
       img: "https://plus.unsplash.com/premium_photo-1670588776139-da93b47afc6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       name: "Madhu Chalamaiah",
       title: "Lead Developer",
-      info: "I had the pleasure of working alongside with Erick in couple of projects. His meticulous attention to detail, strong analytical skills, and dedication to ensuring product quality were evident in every project. Erick is a valuable asset to any team, and I highly recommend them for their expertise.",
+      info: "I had the pleasure of working alongside Erick on a couple of projects. His meticulous attention to detail, strong analytical skills, and dedication to ensuring product quality were evident in every project. Erick is a valuable asset to any team, and I highly recommend him for his expertise.",
     },
     {
+      id: 3,
+      img: "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
+      name: "Darwin Batres",
+      title: "Lead Developer",
+      info: "Erick has been doing a great job, he got direct exposure to the client and was able to interact with them. The client liked his work and he helped them directly whenever they needed it. i.e providing data, demos, sharing knowledge.",
+    },
+   
+    {
       id: 4,
+      img: "https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      name: "Luis Cuestas",
+      title: "Lead Developer",
+      info: "I hired Erick after a really good job interview with him, and I was right in my decision as he proved to be a valuable asset for any project. He took part in every aspect of the project, including frontend and backend development.",
+    },
+    {
+      id: 5,
       img: "https://images.unsplash.com/photo-1614644147798-f8c0fc9da7f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
       name: "Company",
       title: "Rules Cube",
       info: "Erick demonstrated not only strong technical skills but also a significant commitment to his responsibilities. His meticulous approach and ability to tackle complex challenges were of great value to the team and contributed significantly to the success of our projects.",
     },
-    {
-      id: 5,
-      img: "https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      name: "Peter H.",
-      title: "Founder of XYZ",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore.",
-    },
+  
     
     // Add other testimonials...
   ];
@@ -123,11 +125,11 @@ const Testimonials4 = () => {
               filter: "brightness(1.3)",
               color: "#8d93a0",
             }}
-            className="shift text-xl tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem]"
+            className="text-xl tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem]"
           >
             {testimonials[currentIndex].info}
           </p>
-          <p style={{ color: "#e3e3e3" }} className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem] mt-4">
+          <p style={{ color: "#e3e3e3" }} className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[0.9rem] mt-5">
             <strong className="text-lg tinyMobile:text-[0.8rem] mobile:text-[0.8rem] mobileBig:text-[0.9rem]">
               {testimonials[currentIndex].name}
             </strong>

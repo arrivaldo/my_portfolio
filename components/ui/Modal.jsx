@@ -43,7 +43,7 @@ const SpringModal = ({ isOpen, setIsOpen, title, timeline, icon }) => {
           >
             {/* <FiAlertCircle className="text-white/10 rotate-12 text-[250px] absolute z-0 -top-24 -left-24" /> */}
             <div className="relative z-10">
-              <div className="flex justify-center mx-auto mb-2 w-full h-16">
+              <div className="flex justify-center mx-auto mb-2 w-full h-12">
                 {icon}
               </div>
               <h3 className="item-service font-bold text-center mb-2">

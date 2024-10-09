@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Spotlight from "../SpotlighBorder";
 
-import './TagScroller.css';
+import "./TagScroller.css";
 
 const TagScroller = () => {
   useEffect(() => {
@@ -20,15 +20,13 @@ const TagScroller = () => {
         clonedItem.setAttribute("aria-hidden", true);
         tagList.appendChild(clonedItem);
       });
-      tagList.style.setProperty("--duration", (tagList.clientWidth / 10) + "s");
+      tagList.style.setProperty("--duration", tagList.clientWidth / 10 + "s");
     };
 
     tagScroller.innerHTML = "";
     tagScroller.appendChild(tagList);
     addScrolling();
   }, []);
-
-
 
   const spotlightRef = useRef(null);
 
@@ -40,258 +38,636 @@ const TagScroller = () => {
 
   return (
     <>
-    
-    <h1
+      <h1
         className="clientClass p-title-clients text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem]  mobileBig:text-[1.05rem]"
         style={{
-          fontWeight: '700'
+          fontWeight: "700",
         }}
       >
         {" "}
         Awesome clients that weve helped
       </h1>
 
-
-
       <div className="tag-scrollers">
-      <div className="tag-scroller">
-        <ul ref={spotlightRef} className="tag-list">
+        <div className="tag-scroller">
+          <ul ref={spotlightRef} className="tag-list">
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>{" "}
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>{" "}
 
 
-        <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
+
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
               <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
                 className="relative h-full overflow-x-hidden "
               >
-          <li style={{borderRadius: '5px'}}>Munich RE</li>
-          </div>
-          </div>
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
               <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
                 className="relative h-full overflow-x-hidden "
               >
-          <li style={{borderRadius: '5px'}}>FEMSA</li>
-          </div>
-          </div> 
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>
+
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>
+
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>
+
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
+              <div
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
+                className="relative h-full overflow-x-hidden "
+              >
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>
 
 
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
               <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
                 className="relative h-full overflow-x-hidden "
               >
-          <li style={{borderRadius: '5px'}}>CLARO 360</li>
-          </div>
-          </div> 
-
-
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
+                <li style={{ borderRadius: "5px" }}>Munich RE</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
               <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
                 className="relative h-full overflow-x-hidden "
               >
-          <li style={{borderRadius: '5px'}}>MIRA</li>
-          </div>
-          </div> 
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
+                <li style={{ borderRadius: "5px" }}>FEMSA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
               <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
                 className="relative h-full overflow-x-hidden "
               >
-          <li style={{borderRadius: '5px'}}>Popular Bank</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
+                <li style={{ borderRadius: "5px" }}>CLARO 360</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
               <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
                 className="relative h-full overflow-x-hidden "
               >
-          <li style={{borderRadius: '5px'}}>Munich RE</li>
-          </div>
-          </div>
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
+                <li style={{ borderRadius: "5px" }}>MIRA</li>
+              </div>
+            </div>
+            <div
+              className="overflow-x-hidden"
+              style={{ padding: "2px", borderRadius: "5px" }}
+            >
               <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
+                style={{ background: "rgb(0 0 69)", borderRadius: "5px" }}
                 className="relative h-full overflow-x-hidden "
               >
-          <li style={{borderRadius: '5px'}}>FEMSA</li>
-          </div>
-          </div>           
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>CLARO 360</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>MIRA</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>Popular Bank</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>Munich RE</li>
-          </div>
-          </div>
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>FEMSA</li>
-          </div>
-          </div>           
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>CLARO 360</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>MIRA</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>Popular Bank</li>
-          </div>
-          </div> 
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>Munich RE</li>
-          </div>
-          </div>         
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>FEMSA</li>
-          </div>
-          </div> 
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>CLARO 360</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>MIRA</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>Popular Bank</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>Munich RE</li>
-          </div>
-          </div>        
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>FEMSA</li>
-          </div>
-          </div>         
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>CLARO 360</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>MIRA</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>Popular Bank</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>Munich RE</li>
-          </div>
-          </div>          
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>FEMSA</li>
-          </div>
-          </div>           
-          <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>CLARO 360</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>MIRA</li>
-          </div>
-          </div>           <div className="overflow-x-hidden" style={{ padding: "2px",borderRadius: '5px'}}>
-              <div
-                style={{ background: 'rgb(0 0 69)',borderRadius: '5px' }}
-                className="relative h-full overflow-x-hidden "
-              >
-          <li style={{borderRadius: '5px'}}>Popular Bank</li>
-          </div>
-          </div>         </ul>
+                <li style={{ borderRadius: "5px" }}>Popular Bank</li>
+              </div>
+            </div>
+          </ul>
+        </div>
       </div>
-    </div>
     </>
-    
   );
 };
 

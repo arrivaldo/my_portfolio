@@ -19,7 +19,7 @@ import './CountUpStats.css'
         />
         <div className=" bg-indigo-200 " />
         <Stat
-          num={5}
+          num={6}
           decimals={0}
           suffix="+"
           subheading="Years of Experience"
@@ -28,7 +28,7 @@ import './CountUpStats.css'
         <Stat
           num={8}
           suffix="+"
-          subheading="Satisfied Clients"
+          subheading="Awesome Clients"
         />
       </div>
     </div>

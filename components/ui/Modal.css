@@ -1,5 +1,5 @@
 .modalWidth {
-    width: 30%;
+    width: 25%;
 }
 
 .item-title {
@@ -50,7 +50,7 @@
 @media screen and (min-width: 320px) and (max-width: 355px) {
   
     .modalWidth {
-        width: 80%;
+        width: 98%;
     }
 
     .item-description {
@@ -88,7 +88,7 @@
   @media screen and (min-width: 356px) and (max-width: 399px) {
         /* CSS rules for devices with widths between 321 pixels and 768 pixels */
         .modalWidth {
-            width: 80%;
+            width: 96%;
         }
         
         .item-description {
@@ -126,7 +126,7 @@
   @media screen and (min-width: 400px) and (max-width: 431px) {
   
     .modalWidth {
-        width: 80%;
+        width: 95%;
     }
 
 
@@ -168,13 +168,10 @@
   
   @media screen and (min-width: 432px) and (max-width: 500px) {
   
-    .modalWidth {
-        width: 70%;
-    }
-
+ 
 
     .modalWidth {
-        width: 80%;
+        width: 95%;
     }
 
 

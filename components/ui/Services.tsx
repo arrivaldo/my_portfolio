@@ -6,6 +6,7 @@ import "./Services.css";
 import Spotlight from "../SpotlighBorder";
 import Modal from "./Modal";
 
+
 const Services = () => {
 
   const spotlightRef = useRef(null);
@@ -15,6 +16,7 @@ const Services = () => {
       new Spotlight(spotlightRef.current);
     }
   }, []);
+
 
 
   return (
@@ -88,44 +90,44 @@ const Services = () => {
                         date: "",
                         title: "MERN Stack Development",
                         description:
-                          "Application development using Mongo DB, Express.js, React and Node.js.",
+                          "Developed and maintained dynamic, responsive web applications using MongoDB, Express.js, React and Node.js.",
                       },
                       {
                         date: "",
-                        title: "Pega Consulting & Development",
+                        title: "Pega Consulting",
                         description:
-                          "Application development through Pega's CRM as a certified CSA.",
+                          "Application development solutions through Pega platform as a Certified System Architect (CSA).",
                       },
                       {
                         date: "",
                         title:
                           "Frontend Development",
                         description:
-                          "Build responsive and dynamic web interfaces using JavaScript, React, Next.js and the most modern frameworks",
+                          "Adept to the most modern frontend technologies including TypeScript, Next.js, Three.js, Tailwind CSS. ",
                       },
                       {
                         date: "",
                         title: "Backend Development",
                         description:
-                          "Implementing server-side logic, APIs, and databases using Node.js, Express, or similar technologies.",
+                          "Implemented server-side logic and developed backend processes using Node.js, Express, GraphQL and RESTful API's.",
                       },
                       {
                         date: "",
                         title: "Database Management",
                         description:
-                          "Designing, optimizing, and managing relational (SQL) and NoSQL databases (MongoDB, etc.)."
+                          "Developed and executed queries for data retrieval, leveraging SQL for relational data and MongoDB for distributed data storage."
                       },
                       {
                         date: "",
-                        title: "Technologies i've worked with",
+                        title: "Cloud Deployment & DevOps",
                         description:
-                          "TypeScript, C, SQL, Next.js,  Three.js, React Native, Tailwind, Webflow, ES6+",
+                          "Deployed applications on cloud platforms such as AWS, Firebase or Vercel while executing CI/CD pipelines and DevOps practices using Github, Test-driven development(TDD) and Scrum."
                       },
                       {
                         date: "",
-                        title: "Other Important Topics",
+                        title: "Mobile Development",
                         description:
-                          "Version Control (Git), Testing (TDD), Performance (Code Splitting, Lazy Loading)",
+                          "Leveraging my React knowledge, I'm capable of using React Native, to create simple mobile solutions.",
                       },
                     ]}
                     icon={
@@ -193,28 +195,44 @@ const Services = () => {
                     timeline={[
                       {
                         description:
-                          "Exprienced QA leader implementing end-to-end testing strategies for multiple international projects.",
+                          "Led cross-functional QA teams in implementing end-to-end testing strategies for cross-industry projects.",
+                      },
+                      {
+                        description: "Certified ISTQB Tester.",
                       },
                       {
                         description:
-                          "Collaborated with clients, staff members and IT colleagues to define detailed client requirements.",
+                          "Designed, coordinated and executed unit, integration, regression and acceptance testing.",
                       },
                       {
                         description:
-                          "I've defined the test plan, test aproach, test objectives and test activities for the team project.",
+                          "Migrated and validated critical data, ensuring integrity and zero post-implementation issues.",
                       },
                       {
                         description:
-                          "I've performed Functional Testing Regression, Integration, Acceptance.",
+                          "Managed QA activities across development stages, collaborating with cross-functional teams.",
                       },
+                      
+                      {
+                        description:
+                          "Defined test plans, test approaches, test objectives and test activities ensuring robust testing coverage.",
+                      },
+                    
+                      // {
+                      //   description:
+                      //     "Collaborated with clients, staff members and IT colleagues to define detailed client requirements.",
+                      // },
+                      // {
+                      //   description:
+                      //     "I've defined the test plan, test aproach, test objectives and test activities for the team project.",
+                      // },
+                      // {
+                      //   description:
+                      //     "Designed, coordinated and executed unit, integration, regression and acceptance tests for cross-industry applications.",
+                      // },
 
-                      {
-                        description: "Certified ISQB Tester.",
-                      },
-                      {
-                        description:
-                          "All of the pages and components are first designed in Figma.",
-                      },
+                    
+                    
                     ]}
                     icon={
                       <svg
@@ -281,47 +299,56 @@ const Services = () => {
                     timeline={[
                       {
                         description:
-                          "As a certified Business Architect In dept understanding of the project life cycle",
+                          "Certified Business Architect with in dept understanding of the project life cycle.",
                       },
                       {
                         description:
-                          "Identify needs, gaps and bottlenecks, within the DevOps processes.  ",
+                          "Achieved business outcomes by aligning tech solutions with business objectives.",
+                      },
+                      
+                      {
+                        description:
+                          "Engaged in project planning and resource scope definitions, applying design thinking principles.",
                       },
                       {
                         description:
-                          "Reviewing the new Process Design to confirm alignment with the business needs and outcomes",
+                          "Developed strategic solutions to meet client needs and improve operational efficiency.",
                       },
                       {
                         description:
-                          "ensure that the Business team understands the solution design and is enabled to provide the right guidance and feedback to keep the solution aligned with the business objectives. At the same time, your goal is to ensure that the Pega developers have an extremely good understanding of the business needs and are enabled to appropriately advise on the best use ",
+                          "Identified gaps and bottlenecks throughout the project life cycle and DevOps processes.  ",
+                      },
+                  
+                    
+                      {
+                        description:
+                          "Ensure that IT colleagues have an extremely good understanding of the business needs so they are enabled to advise on the best use.",
                       },
                       {
                         description:
-                          "Collaborated with Business teams and developers on designing, creating and testing the Pega solution.",
+                          "Facilitated effective communication between business stakeholders and technical teams.",
                       },
                     ]}
                     icon={
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="#ffffff"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="feather feather-settings"
-                      >
-                        <circle cx="12" cy="12" r="3"></circle>
-                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-                      </svg>
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#ffffff"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-cloud"
+                    >
+                      <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                    </svg>
                     }
                   />
                                     {/* <p>Read More</p> */}
 
-
-                  <svg
+                                    <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -331,11 +358,11 @@ const Services = () => {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="feather feather-settings"
+                    className="feather feather-cloud"
                   >
-                    <circle cx="12" cy="12" r="3"></circle>
-                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
                   </svg>
+                 
                 </div>
               </div>
             </div>
@@ -404,46 +431,63 @@ const Services = () => {
                   <Modal 
                    title="Mechatronic Engineer"
                    timeline={[
-                     {
-                       description:
-                         "Your knowledge will allow you to have an impact on the increase of quality, productivity and competitiveness of companies.",
-                     },
-                     {
-                       description:
-                         "propose improvements in processes and products, with emphasis on the quality of manufacturing and automation systems.",
-                     },
-                     {
-                       description:
-                         "solve system automation problems, efficiently managing their instrumentation, supervision and control.",
-                     },
-                     {
-                       description:
-                         "Apply microprocessor, microcontroller and programmable logic controller (PLC) technologies.",
-                     },
-                     {
-                       description:
-                         "systems, electronics, mechanics and control, with the combined use of robotics and electronic engineering and computer/systems science.",
-                     },
+                    {
+                      description:
+                      "Integrated mechanical, electronic, and software components into functional cohesive systems.",
+                    },
+                    {
+                      description:
+                        "Applied engineering principles to develop automated systems that optimize operational efficiency.",
+                    },
+                    {
+                      description:
+                        "Implemented microcontroller, and programmable logic controller (PLC) based solutions for real-world systems.",
+                    },
+                    {
+                      description:
+                        "Solved engineering challenges through efficient management of instrumentation and operational tools.",
+                    },
+                    {
+                      description:
+                        "Utilized simulation software to model system behavior, prototypes and monitor system performance.",
+                    },
+                    {
+                      description:
+                        "Drove improvements in processes and products, by contributing to the quality operational strategies of manufacturing and automation systems.",
+                    },
+                 
+                   
+                 
+                    //  {
+                    //    description:
+                    //      "Contributed to the development of innovative solutions in line with industry standards.",
+                    //  },
+                    
+                    
+                    
+                  
                    ]}
                    icon={
                      <svg
-                       xmlns="http://www.w3.org/2000/svg"
-                       width="24"
-                       height="24"
-                       viewBox="0 0 24 24"
-                       fill="none"
-                       stroke="#ffffff"
-                       strokeWidth="2"
-                       strokeLinecap="round"
-                       strokeLinejoin="round"
-                       className="feather feather-cloud"
-                     >
-                       <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
-                     </svg>
+                     xmlns="http://www.w3.org/2000/svg"
+                     width="24"
+                     height="24"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="#ffffff"
+                     strokeWidth="2"
+                     strokeLinecap="round"
+                     strokeLinejoin="round"
+                     className="feather feather-settings"
+                   >
+                     <circle cx="12" cy="12" r="3"></circle>
+                     <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                   </svg>
                    }
                   />
                                     {/* <p>Read More</p> */}
 
+                 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -454,9 +498,10 @@ const Services = () => {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="feather feather-cloud"
+                    className="feather feather-settings"
                   >
-                    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
                   </svg>
                 </div>
               </div>

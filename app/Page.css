@@ -2,7 +2,91 @@
     background: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(3, 0, 215, 0.3), #000);
 }
 
-h2::selection {
+h1::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  h2::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  h3::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  h4::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  h5::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  img::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  button::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  label::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  input::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  textarea::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  strong::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  div::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  a::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  span::selection {
+    color: #87f7dd;
+    background: 0 0;
+    -webkit-text-stroke: 0;
+    /* background: #000319; */
+  }
+  li::selection {
     color: #87f7dd;
     background: 0 0;
     -webkit-text-stroke: 0;
@@ -22,6 +106,35 @@ h2::selection {
   .b-border {
     border: 1px solid #c1c1c138;
   }
+  
+
+
+
+/* Page.css */
+
+
+
+
+/* body {
+  background: rgb(1 0 40)
+
+} */
+
+body {
+  background: #000
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
   @media screen and (min-width: 320px) and (max-width: 355px) {

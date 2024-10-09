@@ -31,7 +31,7 @@ const Home: React.FC = () => {
           </h3>
           <h2
             className="text-[2.4rem] desktop:text-[2rem] headWidth leading-relaxed tinyScreen:text-[0.8rem] tinyMobile:text-[1.3rem] mobile:text-[1.5rem] mobileBig:text-[1.5em] tablet:text-[2rem] tinyTablet:text-[1.8rem] bigTablet:text-[2rem]"
-            style={{ fontWeight: "600", marginTop: "2%", color: "#fff" }}
+            style={{ fontWeight: "600", marginTop: "1%", color: "#fff" }}
           >
             I&apos;m a <span>Full-Stack Developer</span> and a&nbsp;
             <span>Quality Engineer</span>
@@ -46,14 +46,18 @@ const Home: React.FC = () => {
               marginTop: "2%",
             }}
           >
-            Engineer based in México with experience crafting in&nbsp;
+            {/* Engineer based in México with experience crafting in&nbsp; */}
+            {/* Engineer based in México with bringing expertise in&nbsp; */}
+            {/* Engineer based in Mexico with a successful record in */}
+             Engineer based in México with experience delivering projects as a&nbsp; 
+            {/* Engineer based in Mexico bringing expertise in&nbsp; */}
             <span
               style={{
                 color: "#ccedff",
                 filter: "brightness(0.8) contrast(2)",
               }}
             >
-              project development&nbsp;
+              web developer&nbsp;
             </span>
             and&nbsp;
             <span
@@ -62,7 +66,7 @@ const Home: React.FC = () => {
                 filter: "brightness(0.8) contrast(2)",
               }}
             >
-              QA engineering.&nbsp;
+              QA engineer.&nbsp;
             </span>
           </p>
 
@@ -171,9 +175,18 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        <video id="myVideo" autoPlay loop muted className="relative home-video">
+        {/* <video id="myVideo" autoPlay loop muted className="relative home-video">
           <source src="/hologram22.webm" type="video/webm" />
-        </video>
+        </video> */}
+
+
+        {/* <video id="myVideo" autoPlay loop muted className="relative home-video">
+          <source src="/hologram23.webm" type="video/webm" />
+        </video> */}
+
+
+        <img src="/holo3.gif" id="myVideo" alt="holo gif" className="relative home-video" />
+
       </div>
 
       <div className="relative z-50" style={{ width: "100%" }}>
@@ -195,13 +208,13 @@ const Home: React.FC = () => {
                 }}
               >
                 The world of development and software engineering is constantly
-                <span style={{ color: "#e3e3e3" }}> evolving&nbsp;</span>
+                <span style={{ color: "#e3e3e3" }}> evolving,&nbsp;</span>
                 and so has my
                 <span style={{ color: "#e3e3e3" }}>
                   {" "}
-                  role over the last 5 years&nbsp;
+                  role over the last 6 years&nbsp;
                 </span>
-                by collaborating in impactful projects across the globe.
+                by actively collaborating in impactful projects across the world.
               </p>
 
               <br />
@@ -215,7 +228,7 @@ const Home: React.FC = () => {
                 }}
               >
                 During my career I&apos;ve helped international clients fulfill
-                their projects during the entire life cycle by collaborating as
+                their projects during the entire life cycle by contributing as
                 a&nbsp;
                 <span style={{ color: "#e3e3e3" }}>web developer,&nbsp;</span>
                 <span style={{ color: "#e3e3e3" }}>quality analyst&nbsp;</span>

@@ -1,8 +1,15 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./FeaturedProjects4.css";
 import Image from "next/image";
+import Spotlight from "../SpotlighBorder";
+
+import { RiNextjsLine } from "react-icons/ri";
+import { GrGraphQl } from "react-icons/gr";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiVite } from "react-icons/si";
+import { TbBrandTypescript } from "react-icons/tb";
 
 import { IoIosLink } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
@@ -14,6 +21,7 @@ interface Project {
   title: string;
   description: string;
   description2: string;
+  link: string;
   items: { name: string; icon: JSX.Element; style: React.CSSProperties }[];
 }
 
@@ -42,9 +50,16 @@ const FeaturedProjects4: React.FC = () => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elitianiti. Saepe deserunt ipsum rerum sit amet.",
       description2:
         "I've created Code & Toast blog, to share my articles in a way everyone finds it interesting and resourceful.",
+      link: "https://code-toast-blog.vercel.app/",
+
       items: [
+        {
+          name: "Next.js",
+          icon: <RiNextjsLine />,
+          style: { color: "#F7DF1E" },
+        },
+        { name: "GraphQL", icon: <GrGraphQl />, style: { color: "#F7DF1E" } },
         { name: "React", icon: <FaReact />, style: { color: "#61DAFB" } },
-        { name: "JSX", icon: <FaReact />, style: { color: "#F7DF1E" } },
       ],
     },
     {
@@ -53,21 +68,36 @@ const FeaturedProjects4: React.FC = () => {
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elitianiti. Saepe deserunt ipsum rerum sit amet.",
       description2:
-        "Artist website made for showcasing Nedelka's musical and acting trajectory as she ventures into her projects.",
+        "Artist website made for showcasing Nedelka's musical and acting trajectory as she ventures into her career.",
+        link: "https://nedelka.vercel.app/",
+
       items: [
+        { name: "Vite", icon: <SiVite />, style: { color: "#F7DF1E" } },
         { name: "React", icon: <FaReact />, style: { color: "#61DAFB" } },
-        { name: "JSX", icon: <FaReact />, style: { color: "#F7DF1E" } },
+        {
+          name: "Tailwind",
+          icon: <RiTailwindCssFill />,
+          style: { color: "#61DAFB" },
+        },
       ],
     },
     {
       cover: "/images/astro-portfolio.png",
-      title: "Conference App",
+      title: "Software Agency App",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elitianiti. Saepe deserunt ipsum rerum sit amet.",
       description2:
-        "This is a real artist website made for showcasing acting as she ventures into her artist projects jobs.",
+        "Professional agency landing page made for showcasing diverse projects with a modern interface.",
+        link: "https://github.com/arrivaldo/",
+
       items: [
         { name: "React", icon: <FaReact />, style: { color: "#61DAFB" } },
+        {
+          name: "TypeScript",
+          icon: <TbBrandTypescript />,
+          style: { color: "#F7DF1E" },
+        },
+
         { name: "JSX", icon: <FaReact />, style: { color: "#F7DF1E" } },
       ],
     },
@@ -91,6 +121,14 @@ const FeaturedProjects4: React.FC = () => {
       itemsClass = "justify-start0";
     }
 
+    const spotlightRef = useRef(null);
+
+    useEffect(() => {
+      if (spotlightRef.current) {
+        new Spotlight(spotlightRef.current);
+      }
+    }, []);
+
     return (
       <div key={index} className="projectMain-container">
         <div className={`relative project ${projectClass}`}>
@@ -98,23 +136,31 @@ const FeaturedProjects4: React.FC = () => {
             <div className={`project-label ${titleClass}`}>
               Featured Project
             </div>
-            <h4 className={`project-title ${titleClass}`}>{project.title}</h4>
-            <div className="group relative project-details">
+            <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer">
+              <h4 className={`project-title ${titleClass}`}>{project.title}</h4>
+            </a>
+            <div
+              // ref={spotlightRef}
+              className="group relative project-details"
+            >
               <p
-                style={{
-               
-                }}
+                style={{}}
                 className={` ${parrafClass} mediaPadding featured-parraf`}
               >
                 {project.description2}
               </p>
-              <button
-                className={`absolute left-0 bottom-0 h-3 ${parrafClass} ${hoverClass} p-0 lineGrad hoverGrad`}
-              ></button>
+
+              {/* <button
+                style={{ bottom: "-10px", height: "12px" }}
+                className={`absolute left-0 ${parrafClass} ${hoverClass} p-0 linearGrad hoverGrad`}
+              ></button> */}
             </div>
 
             <ul
-              style={{  }}
+              style={{}}
               className={`flex ${itemsClass} marginProject tinyMobile:text-[0.7rem] `}
             >
               {project.items.map((item, itemIndex) => (
@@ -128,6 +174,11 @@ const FeaturedProjects4: React.FC = () => {
                 </li>
               ))}
             </ul>
+
+            {/* <button
+                      style={{ bottom: "-10px", height: "12px" }}
+                      className="absolute left-0  w-full p-0 linearGrad   hoverGrad"
+                    ></button> */}
           </div>
 
           <div className="project-img">
@@ -147,19 +198,15 @@ const FeaturedProjects4: React.FC = () => {
 
   return (
     <div className="p-featured">
-     <h1
+      <h1
         className="block featured-p-title tinyMobile:hidden m-title-p text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]"
-        style={{
-         
-        }}
+        style={{}}
       >
         Checkout some of my personal projects
       </h1>
       <h1
         className=" featured-p-title2 tinyMobile:block m-title-p text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem]"
-        style={{
-      
-        }}
+        style={{}}
       >
         Checkout my personal projects
       </h1>
@@ -169,10 +216,26 @@ const FeaturedProjects4: React.FC = () => {
       </div>
 
       <div className="flex flex-col mt-12 justify-center items-center all-view">
-      <h2 className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] tiny-tablet-view mb-4">
-      View all projects
+        <h2
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            const contactElement = document.getElementById("projects");
+            if (contactElement) {
+              contactElement.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+          className="text-xl tinyMobile:text-[0.9rem] mobile:text-[0.9rem] mobileBig:text-[1.05rem] tiny-tablet-view mb-4"
+        >
+          View all projects
         </h2>
         <svg
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            const contactElement = document.getElementById("projects");
+            if (contactElement) {
+              contactElement.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
           width="30"
           height="30"
           viewBox="0 0 92 50"
