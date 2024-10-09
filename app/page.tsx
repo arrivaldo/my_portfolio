@@ -60,13 +60,12 @@ export default function Home() {
   useEffect(() => {
     if (!loading) {
       // Apply zoom effect to the rest of the page after the loader finishes
-      document.body.style.zoom = '0.9';
+      (document.body.style as any).zoom = '0.9'; // Use type assertion to bypass TypeScript error
     } else {
       // Reset zoom during loading (or for the loader component)
-      document.body.style.zoom = '1';
+      (document.body.style as any).zoom = '1';
     }
   }, [loading]);
-
   return (
     <>
       {loading ? (
