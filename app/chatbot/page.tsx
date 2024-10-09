@@ -163,7 +163,7 @@ export default function ChatPage() {
             <input
               style={{ border: "1px solid #000" }}
               ref={inputRef}
-              className="leading-[2.5rem] rounded-l-lg bg-[#fff] text-black flex-1 px-4"
+              className="leading-[2.5rem] rounded-l-lg bg-[#fff] text-black flex-1 padding-chat-input"
               type="text"
               name="question"
               placeholder="Type your message..."
