@@ -15,7 +15,7 @@ interface Message {
 export default function ChatPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { id: "0", text: "Hi there! Ask me anything!", owner: "bot" },
+    { id: "0", text: "Hi there! Welcome to my portfolio! You can ask me anything!", owner: "bot" },
   ]);
   const [isChatOpen, setIsChatOpen] = useState(true); // State to control chat window visibility
   const inputRef = useRef<HTMLInputElement>(null); // Reference for the input field
