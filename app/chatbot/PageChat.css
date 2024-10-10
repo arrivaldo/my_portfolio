@@ -214,8 +214,7 @@
   
   .chat-window {
     right: 1rem;
-    width: 20rem;
-    display: none;
+    width: 25rem;
   }
   .padding-chat-input {
     padding: 0 0.5rem;
