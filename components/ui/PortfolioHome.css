@@ -383,7 +383,6 @@
   }
   .home-video {
     width: 100%;
-    scale: 1.2;
     margin-top: 7%;
   }
   .m-button {
@@ -427,9 +426,8 @@
   }
   .home-video {
     width: 100%;
-    scale: 1.7;
-    margin-top: 17%;
-    margin-bottom: 7%;
+    margin-top: 1%;
+    margin-bottom: -6%;
   }
   
   }
@@ -450,9 +448,8 @@
   
   .home-video {
     width: 100%;
-    scale: 1.2;
-    margin-top: 7%;
-    margin-bottom: 0%;
+    margin-top: -2%;
+    margin-bottom: -11%;
     }
   
   
@@ -502,9 +499,8 @@
   
   .home-video {
     width: 100%;
-    scale: 1.2;
-    margin-top: 7%;
-    margin-bottom: 0%;  
+    margin-top: -1%;
+    margin-bottom: -8%;  
   }
   
   .m-button {
